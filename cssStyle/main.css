@@ -88,10 +88,10 @@ ul {
 
 .what-section {
   margin: 110px 0px 0px 0px;
-  background-image: url(/img/Union_11zon.webp);
+  background-image: url(../img/Union_11zon.webp);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 2010px;
+  height: 1510px;
   width: auto;
   padding: 90px 0px;
 }
@@ -201,6 +201,27 @@ ul {
     padding-bottom: 30px;
   }
 }
+.meet-head {
+  display: flex;
+  margin-top: 280px;
+  background: linear-gradient(360deg, #e7e7e7 0.83%, #f7f7f7 100%);
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 290px;
+}
+
+.meet-head .cp {
+  margin-top: 50px;
+  align-self: center;
+}
+
+.meet-head img {
+  position: absolute;
+  left: 82px;
+  top: -52px;
+}
 
 /* Medium */
 @media (max-width: 992px) {
@@ -228,7 +249,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("/img/pexels-alex-green-5699515\ 2\ \(1\).webp");
+  background-image: url("../img/pexels-alex-green-5699515\ 2\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 721px;
@@ -732,6 +753,7 @@ header .container ul a:not(:last-child):hover {
   z-index: 12;
   display: flex;
   gap: 20px;
+  margin-top: 33px;
 }
 
 .btn-explore {
@@ -763,6 +785,86 @@ header .container ul a:not(:last-child):hover {
   font-weight: 500;
   line-height: 22.48px;
   text-align: center;
+}
+
+.main-dikor {
+  width: 399px;
+  height: 216px;
+  padding: 29px 21px 29px 21px;
+  position: relative;
+  right: -1100px;
+  bottom: -300px;
+}
+
+.main-dikor::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(
+      180deg,
+      rgba(74, 74, 74, 0.21) 0%,
+      rgba(208, 208, 208, 0.21) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: 1px solid #858585;
+  backdrop-filter: blur(31.799999237060547px);
+}
+
+.main-dikor div {
+  position: relative;
+  z-index: 1;
+}
+.main-dikor .box-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #858585;
+  padding-bottom: 20px;
+}
+.main-dikor .box-one p {
+  font-family: Raleway;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  width: 211px;
+  height: 52px;
+}
+
+.main-dikor .box-one a {
+  width: 116px;
+  height: 45.48px;
+  padding: 11.24px 20px 11.24px 20px;
+  border-radius: 7.49px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.48px;
+  text-align: center;
+}
+
+.main-dikor .box-two {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 20px;
+}
+
+.main-dikor .box-two div {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
 }
 
 /* end-banner  */
