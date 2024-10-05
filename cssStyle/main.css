@@ -88,7 +88,7 @@ ul {
 
 .what-section {
   margin: 110px 0px 0px 0px;
-  background-image: url(/img/Union_11zon.webp);
+  background-image: url(../img/Union_11zon.webp);
   background-repeat: no-repeat;
   background-size: contain;
   height: 2010px;
@@ -228,7 +228,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("/img/pexels-alex-green-5699515\ 2\ \(1\).webp");
+  background-image: url(../img/pexels-alex-green-5699515\ 2\ \(1\).webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 721px;
@@ -732,6 +732,7 @@ header .container ul a:not(:last-child):hover {
   z-index: 12;
   display: flex;
   gap: 20px;
+  margin-top: 33px;
 }
 
 .btn-explore {
