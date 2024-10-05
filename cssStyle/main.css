@@ -91,7 +91,7 @@ ul {
   background-image: url(../img/Union_11zon.webp);
   background-repeat: no-repeat;
   background-size: contain;
-  height: 2010px;
+  height: 1510px;
   width: auto;
   padding: 90px 0px;
 }
@@ -200,6 +200,27 @@ ul {
   .what-div-imagee-head {
     padding-bottom: 30px;
   }
+}
+.meet-head {
+  display: flex;
+  margin-top: 280px;
+  background: linear-gradient(360deg, #e7e7e7 0.83%, #f7f7f7 100%);
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 290px;
+}
+
+.meet-head .cp {
+  margin-top: 50px;
+  align-self: center;
+}
+
+.meet-head img {
+  position: absolute;
+  left: 82px;
+  top: -52px;
 }
 
 /* Medium */
