@@ -242,7 +242,12 @@ ul {
     width: 1170px;
   }
 }
+
 /* end what section */
+/* start about section */
+.aboute {
+  background-image: none !important;  
+}
 
 /* O //*/
 
