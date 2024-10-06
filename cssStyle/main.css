@@ -322,6 +322,11 @@ ul {
   font-size: 20px;
 }
 
+.aboute {
+  background-image: none !important;
+  height: 0px !important;
+}
+
 @media (min-width: 767px) {
   .text p {
       text-align: justify !important;
