@@ -888,8 +888,9 @@ header .container ul a:not(:last-child):hover {
   height: 216px;
   padding: 29px 21px 29px 21px;
   position: relative;
-  right: -1220px;
-  bottom: -300px;
+  top: 57%;
+  left: 80%;
+  transform: translate(-50%, -50%);
 }
 
 .main-dikor::before {
@@ -966,10 +967,34 @@ header .container ul a:not(:last-child):hover {
 /* end-banner  */
 
 /* start rectangle */
+.rectangle {
+  height: 950px;
+  background-image: url("../img/Rectangle\ \(1\).png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  place-content: center;
+
+}
+
+.rectangle .rectangle-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 .rectangle img {
   max-width: 100%;
 }
 
+.rectangle .box-one,
+.rectangle .box-two,
+.rectangle .box-three,
+.rectangle .box-four {
+  flex-basis: 40%;
+}
 /* end rectangle */
 
 /* //ibo */
