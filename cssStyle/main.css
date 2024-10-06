@@ -329,8 +329,15 @@ ul {
 
 @media (min-width: 767px) {
   .text p {
-      text-align: justify !important;
+    text-align: justify !important;
   }
+}
+
+.about-foto .text span {
+  height: 2px;
+  width: 300px;
+  background-color: #53bcc0;
+  margin: 10px 0px;
 }
 /* O //*/
 
