@@ -245,48 +245,88 @@ ul {
 
 /* end what section */
 /* start about section */
-.aboute {
-  background-image: none !important;
-  background-size: none !important;
-  background-repeat: none !important;
-  height: 100px !important;
-  border-radius: 0px !important;
+.about {
+  margin-top: 150px;
+  margin-bottom: 100px;
 }
-
-.sec-title {
-  margin: 20px 0px;
-}
-
-.sec-title h1 {
+.special-heading {
+  text-align: center;
+  color: #bcc2c891;
   font-size: 100px;
-  font-weight: 900;
-  font-family: "raleway", sans-serif;
-  text-align: center;
-  text-transform: capitalize;
-  opacity: 0.2;
-  padding: 0%;
-  margin: 0%;
-  font-style: "brandon-grotesque", sans-serif;
+  margin: 50px 0px 0px;
+  font-weight: 800;
+  letter-spacing: -3px;
 }
 
-.sec-title p {
-  padding: 0%;
-  margin: 0%;
-  top: 127px;
-  z-index: 1;
-  font-size: 55px;
-  font-family: "cairo", sans-serif;
+.seo {
+  margin: 0;
+  padding: 0;
   text-align: center;
-  text-transform: capitalize;
-  opacity: 1;
-  font-style: italic;
-  /* color: var(--color); */
+  font-weight: 200;
+  letter-spacing: 12px;
+  top: -50px;
+  position: relative;
+  font-family: none;
   color: var(--main-color);
-  transform: translateY(-45px);
-  letter-spacing: 11px;
-  font-weight: 500;
+  font-size: 50px;
 }
 
+.about-foto {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-foto .imag {
+  flex-basis: 30%;
+  position: relative;
+}
+
+.about-foto .imag img {
+  width: 300px;
+  height: 450px;
+}
+
+.about-foto .imag::before {
+  top: -40px;
+  content: "";
+  position: absolute;
+  width: 68px;
+  height: 300px;
+  border-left: 80px solid var(--main-color);
+  border-bottom: 79px solid var(--main-color);
+  z-index: -1;
+  right: -106px;
+}
+
+.about-foto .imag::after {
+  content: "";
+  position: absolute;
+  background-color: #ebeced;
+  width: 100px;
+  height: calc(100% + 80px);
+  top: -40px;
+  left: -20px;
+  z-index: -1;
+}
+
+.about-foto .text {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  flex-basis: 70%;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media (min-width: 767px) {
+  .text p {
+      text-align: justify !important;
+  }
+}
 /* O //*/
 
 /* -ibo */
