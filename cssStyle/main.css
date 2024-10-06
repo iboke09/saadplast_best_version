@@ -246,7 +246,7 @@ ul {
 /* end what section */
 /* start about section */
 .aboute {
-  background-image: none !important;  
+  background-image: none !important;
 }
 
 /* O //*/
@@ -254,6 +254,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
+  background-image: url("../img/DALL·E\ 2024-10-05\ 18.59.42\ -\ A\ wide\ flat-lay\ image\ of\ a\ white\ plastic\ medicine\ bottle\ on\ the\ right\ side\ of\ a\ dark\ textured\ surface\,\ with\ some\ teal-blue\ pills\ scattered\ around\ it.\ .webp");
   background-image: url("../img/BackgrundEdited\ 1\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
