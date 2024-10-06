@@ -249,10 +249,10 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("../img/pexels-alex-green-5699515\ 2\ \(1\).webp");
+  background-image: url("../img/BackgrundEdited\ 1\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 721px;
+  height: 781px;
   border-radius: 0px 0px 8px 8px;
 }
 
@@ -264,7 +264,7 @@ ul {
   align-items: center;
   justify-content: center;
   height: 80px;
-  background-color: rgba(62, 62, 62, 0.9);
+  background-color: rgb(11 11 11 / 69%);
   backdrop-filter: blur(44px);
   padding: 0px 10px 0px;
   border-radius: 0px 0px 8px 8px;
@@ -792,7 +792,7 @@ header .container ul a:not(:last-child):hover {
   height: 216px;
   padding: 29px 21px 29px 21px;
   position: relative;
-  right: -1100px;
+  right: -1220px;
   bottom: -300px;
 }
 
