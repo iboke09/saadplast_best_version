@@ -247,6 +247,44 @@ ul {
 /* start about section */
 .aboute {
   background-image: none !important;
+  background-size: none !important;
+  background-repeat: none !important;
+  height: 100px !important;
+  border-radius: 0px !important;
+}
+
+.sec-title {
+  margin: 20px 0px;
+}
+
+.sec-title h1 {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: "raleway", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 0.2;
+  padding: 0%;
+  margin: 0%;
+  font-style: "brandon-grotesque", sans-serif;
+}
+
+.sec-title p {
+  padding: 0%;
+  margin: 0%;
+  top: 127px;
+  z-index: 1;
+  font-size: 55px;
+  font-family: "cairo", sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 1;
+  font-style: italic;
+  /* color: var(--color); */
+  color: var(--main-color);
+  transform: translateY(-45px);
+  letter-spacing: 11px;
+  font-weight: 500;
 }
 
 /* O //*/
