@@ -345,8 +345,8 @@ ul {
   height: 120vh;
   background-color: white;
   position: relative;
-  z-index: -1;
   padding-top:69px;
+  z-index: 100;
 }
 .pro-head div{
   padding: 0px 10px;
@@ -377,12 +377,16 @@ ul {
   text-align: right;
   display: block;
   margin: 0px 97px 38px 0px;
+  cursor: pointer;
+  z-index: 4;
 }
 
 .pro-head .spano a{
   color: var(--main-color);
   position: relative;
   border-bottom:1px solid black ;
+  cursor: pointer;
+  z-index: 5  ;
 }
 
 .imag-pro{
@@ -432,6 +436,19 @@ line-height: 31.93px;
 text-align: center;
 
 } 
+
+.pempe-pro{
+  background: linear-gradient(89.22deg, #543617 -0.98%, #F27320 112% ) !important ;
+  margin: 0px auto 32px ;
+  text-align: center;
+  color: transparent !important;
+  background-clip: text !important;
+  font-family: "raleway";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.35px;
+  text-align: center;
+}
 
 
 /* enn pro-section */
