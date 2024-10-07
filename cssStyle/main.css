@@ -340,7 +340,6 @@ ul {
   margin: 10px 0px;
 }
 
-
 /* O //*/
 
 /* -ibo */
@@ -977,25 +976,107 @@ header .container ul a:not(:last-child):hover {
   background-repeat: no-repeat;
   background-size: cover;
   place-content: center;
-
+  margin-top: -7px;
 }
 
-.rectangle .rectangle-box{
+.rectangle .rectangle-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 55px 45px;
 }
 .rectangle img {
   max-width: 100%;
 }
 
-.rectangle .box-one,
-.rectangle .box-two,
-.rectangle .box-three,
-.rectangle .box-four {
+.rectangle .box-all {
+  width: 492.5px;
+  height: 306px;
+  padding: 43px 49px 43px 49px;
+  gap: 10px;
+  border-radius: 12px;
   flex-basis: 40%;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+}
+
+.rectangle .box-all img {
+  width: 242px;
+  height: 180px;
+  top: 65px;
+  position: relative;
+  left: 10px;
+}
+.rectangle .box-all p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(62, 62, 62, 1);
+  text-align: left;
+  width: 205px;
+}
+.rectangle .box-all h5 {
+  margin: 0;
+}
+.rectangle .box-three img {
+  left: -10px;
+}
+
+.rectangle .box-two h5 {
+  width: 278px;
+}
+
+.rectangle .box-two img {
+  left: -13px;
+}
+
+.rectangle .box-two,
+.rectangle .box-one {
+  box-shadow: 0px 4px 75.1px 0px rgba(83, 187, 184, 0.5);
+}
+.rectangle .box-two h5,
+.rectangle .box-one h5 {
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.87px;
+  text-align: left;
+  background: linear-gradient(89.22deg, #265554 -0.98%, #53bbb8 112%);
+  background-clip: text;
+  color: transparent;
+}
+.rectangle .box-four {
+  box-shadow: 0px 4px 54px 0px rgba(191, 73, 120, 0.5);
+}
+.rectangle .box-four h5 {
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.87px;
+  text-align: left;
+  background: linear-gradient(88.31deg, #592238 -2.1%, #bf4978 70.75%);
+  background-clip: text;
+  color: transparent;
+}
+.rectangle .box-four img {
+  height: 242px;
+  top: 8px;
+  flex-basis: 10%;
+}
+.rectangle .box-three {
+  box-shadow: 0px 4px 54px 0px rgba(242, 115, 32, 0.3);
+}
+.rectangle .box-three h5 {
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.87px;
+  text-align: left;
+  background: linear-gradient(89.22deg, #543617 -0.98%, #f27320 112%);
+  background-clip: text;
+  color: transparent;
 }
 /* end rectangle */
 
