@@ -641,7 +641,7 @@ header .container ul li a.active {
 }
 header nav ul .deneme:hover ul li .brochuree {
   transition: 0.5s;
-  display: block;
+  display: block !important;
 }
 
 .brochuree {
