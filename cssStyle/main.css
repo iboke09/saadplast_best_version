@@ -346,8 +346,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("../img/DALL·E\ 2024-10-05\ 18.59.42\ -\ A\ wide\ flat-lay\ image\ of\ a\ white\ plastic\ medicine\ bottle\ on\ the\ right\ side\ of\ a\ dark\ textured\ surface\,\ with\ some\ teal-blue\ pills\ scattered\ around\ it.\ .webp");
-  background-image: url("../img/BackgrundEdited\ 1\ \(1\).webp");
+  background-image: url("../img/BakgroundEdit\ 1\ \(1\).webp  ");
   background-size: cover;
   background-repeat: no-repeat;
   height: 781px;
@@ -696,10 +695,10 @@ header .container ul li a {
   color: var(--main-color);
 }
 
-header .container ul a:not(:last-child):hover {
+/* header .container ul a:not(:last-child):hover {
   border-bottom: 2px var(--main-color) solid;
   cursor: pointer;
-}
+} */
 
 .multi {
   position: relative;
