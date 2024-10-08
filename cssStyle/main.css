@@ -177,6 +177,28 @@ ul {
   margin-right: 70px;
   align-self: flex-start;
 }
+.meet-head {
+  display: flex;
+  margin-top: 280px;
+  background: linear-gradient(360deg, #e7e7e7 0.83%, #f7f7f7 100%);
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 290px;
+}
+
+.meet-head .cp {
+  margin-top: 50px;
+  align-self: center;
+}
+
+.meet-head img {
+  position: absolute;
+  left: 82px;
+  top: -52px;
+}
+
 /* Small */
 @media (max-width: 768px) {
   .main-dikor {
@@ -201,54 +223,53 @@ ul {
   .what-div-imagee-head {
     padding-bottom: 50px;
   }
-  .dood{
-  font-size: 38px;
-  line-height: 52px;
+  .dood {
+    font-size: 38px;
+    line-height: 52px;
   }
-  .what-section{
+  .what-section {
     margin: 30px 0px 0px 0px;
     padding: 0px;
   }
-  .what-div-image{
+  .what-div-image {
     width: 292px !important;
-  padding: 0px 3px 70px 3px !important;
-}
-.what-ortaolan {
-  width: 292px !important;
-  padding: 0px 3px 70px 3px !important;
-  display: block;
+    padding: 0px 3px 70px 3px !important;
+  }
+  .what-ortaolan {
+    width: 292px !important;
+    padding: 0px 3px 70px 3px !important;
+    display: block;
+  }
+
+  .what-section {
+    height: auto !important;
+  }
+  .meet-head {
+    margin-top: 10px !important;
+    padding: 20px 0px !important ;
+    background-image: url(../img/Union_11zon.webp);
+    background-repeat: no-repeat;
+  }
+  .meet-head img {
+    position: absolute;
+    left: 6px;
+    top: 73px;
+    width: 152px;
+    height: 130px;
+  }
+  .what-div-imagee-head img {
+    width: 307px !important;
+  }
 }
 
-.what-section{
-  height: auto !important;
-}
-.meet-head {
-  margin-top: 70px !important;
-}
-.what-div-imagee-head img{
-  width: 307px !important;
-}
-}
-.meet-head {
-  display: flex;
-  margin-top: 280px;
-  background: linear-gradient(360deg, #e7e7e7 0.83%, #f7f7f7 100%);
-  padding: 70px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 290px;
-}
-
-.meet-head .cp {
-  margin-top: 50px;
-  align-self: center;
-}
-
-.meet-head img {
-  position: absolute;
-  left: 82px;
-  top: -52px;
+@media (max-width: 558px) {
+  .meet-head img {
+    top: 113px;
+  }
+  .meet-head .cp {
+    margin-top: 0px !important;
+    font-size: 30px;
+  }
 }
 
 /* Medium */
@@ -428,7 +449,6 @@ ul {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0px !important;
 }
 .pro-foto span p {
   text-align: center;
@@ -469,6 +489,33 @@ ul {
   font-weight: 500;
   line-height: 56.35px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .pr-foto {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .pro-foto {
+    margin-bottom: 100px !important;
+  }
+  .pro-three {
+    display: none;
+  }
+  .pro-head {
+    height: auto !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .pr-foto {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  .pro-two {
+    display: none;
+  }
+  .pro-head h2 {
+    font-size: 30px !important;
+  }
 }
 
 /* enn pro-section */
