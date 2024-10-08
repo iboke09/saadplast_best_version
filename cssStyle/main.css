@@ -270,6 +270,36 @@ ul {
     margin-top: 0px !important;
     font-size: 30px;
   }
+  .what-section {
+    height: auto !important;
+  }
+  .meet-head {
+    margin-top: 70px !important;
+  }
+  .what-div-imagee-head img {
+    width: 307px !important;
+  }
+}
+.meet-head {
+  display: flex;
+  margin-top: 280px;
+  background: linear-gradient(360deg, #e7e7e7 0.83%, #f7f7f7 100%);
+  padding: 70px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 290px;
+}
+
+.meet-head .cp {
+  margin-top: 50px;
+  align-self: center;
+}
+
+.meet-head img {
+  position: absolute;
+  left: 82px;
+  top: -52px;
 }
 
 /* Medium */
@@ -1362,11 +1392,7 @@ header .container ul li a {
   text-align: left;
   position: relative;
   right: -37px;
-}
-
-.testimonial-section .splide__track--draggable {
-  /* box-shadow:-90px -5px 36px -54px rgba(16, 92, 90, 0.3); */
-  /* margin-left: -33px; */
+  overflow: hidden;
 }
 
 .section-title {
@@ -1377,18 +1403,52 @@ header .container ul li a {
   text-align: center;
   color: rgba(0, 0, 0, 1);
   margin-bottom: -85px;
+  position: relative;
 }
-
-/* .testimonial-card::after{
+/* 
+.section-title::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0px 4px 75.1px 0px rgba(16, 92, 90, 0.3);
-  z-index: 10000;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  bottom: -38px;
+  background-color: white;
+}
+
+.section-title::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  background-color: #333;
+  bottom: -30px;
+  width: 120px;
 } */
+
+.testimonial-card::after {
+  /* content: "";
+  position: relative;
+  display: block;
+  top: -23px;
+  left: 210px;
+  width: 88%;
+  height: 79%;
+  z-index: 10000;
+  background: #57bcb7;
+  border-radius: 312px; */
+}
+.testimonial-card.ols::after {
+  background: rgba(228, 91, 146, 1);
+}
+
+.testimonial-card.sha::after {
+  background-color: rgba(242, 115, 32, 1);
+}
 
 .testimonial-card.sha {
   box-shadow: 0px 4px 54px 0px rgba(84, 54, 23, 0.3);
@@ -1448,7 +1508,7 @@ header .container ul li a {
 }
 .splide__pagination {
   bottom: 1em !important;
-  right: -23px !important;
+  right: -5px !important;
 }
 .card-client {
   font-family: Roboto;
@@ -1467,18 +1527,20 @@ header .container ul li a {
 .card-image img {
   max-width: 100%;
   bottom: 20px;
-  right: 30px;
+  right: 0px;
   position: absolute;
   margin-top: -58px;
+  z-index: 100000;
 }
 
 .card-image.olsun img {
-  right: -25px;
+  right: -30px;
   bottom: 13px;
 }
 
 .card-image.sh img {
   bottom: 13px;
+  right: 17px;
 }
 
 .card-image.sha1 img {
@@ -1504,6 +1566,7 @@ header .container ul li a {
   height: 70vh;
   place-content: center;
   margin-bottom: 100px;
+  position: relative;
 }
 
 .splide__track--draggable {
@@ -1737,6 +1800,11 @@ header .container ul li a {
   text-align: center;
 }
 
+.mask-every::after {
+  content: "";
+  background-image: url("../img/Frame\ \(2\).webp");
+}
+
 @media (max-width: 1200px) {
   .rectangle .box-all img {
     left: -43px;
@@ -1783,4 +1851,125 @@ header .container ul li a {
     width: 255px;
   }
 }
+
+/* start main brochure */
+
+.main-brochure {
+  margin: 110px 0px 0px 0px;
+  background-image: url(../img/Union_11zon.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1500px;
+  width: 100vw;
+  position: relative;
+  margin-bottom: -350px;
+}
+
+.main-brochure::before {
+  content: "";
+  content: "";
+  width: 400px;
+  position: absolute;
+  height: 153px;
+  background: #f7f7f7;
+  top: 572px;
+}
+
+.text-brochure {
+  text-align: center;
+  
+}
+
+.text-brochure h6 {
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 0px;
+}
+
+.text-brochure p {
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 65px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin: 3px;
+}
+
+.main-brochure .mask-brochure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-brochure .mask-brochure .download-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 451px;
+  height: 96.48px;
+  padding: 25px 19px 25px 19px;
+  gap: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 16px 38.5px 0px rgba(0, 0, 0, 0.09);
+  box-shadow: 0px 26px 34.8px 0px rgba(0, 0, 0, 0.05);
+  position: relative;
+  top: 55px;
+}
+
+.main-brochure .mask-brochure .download-btn .download-brochure {
+  width: 190.5px;
+  height: 45.48px;
+  padding: 11.24px 20px 11.24px 20px;
+  border-radius: 7.49px;
+  background: linear-gradient(
+      0deg,
+      var(--Logo-Color, #53bbb8),
+      var(--Logo-Color, #53bbb8)
+    ),
+    linear-gradient(217.48deg, #3e3e3e 0%, #000000 100%),
+    linear-gradient(230.23deg, #53bbb8 -67.53%, #000000 108.1%);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.48px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.main-brochure .mask-brochure .download-btn .talimate {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+}
+/* end main brochure */
+
+/* start footer */
+
+.footer-div {
+  width: 440px;
+  height: 410px;
+  padding: 119px 101px 119px 101px;
+  width: 100%;
+  background-image: url('../img/BackgrundEdited 1 (1\).webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width:767px) {
+  .footer-div{
+    padding: 55px 94px 118px 27px;
+    ;
+  }
+}
+/* end footer */
 /* /* //ibo * */
