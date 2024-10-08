@@ -8,8 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
     interval: 7000,
     pauseOnHover: true,
     gap: "0px",
-    pagination: false,
+    pagination: true,
     arrows: false,
+    breakpoints: {
+      767: {
+        type: "slide",
+      },
+    },
   }).mount();
 });
 
@@ -26,4 +31,3 @@ clicked.addEventListener("click", () => {
   burgerMenu.style.cssText = "display: block";
   navMenu.style.cssText = "display: none";
 });
-
