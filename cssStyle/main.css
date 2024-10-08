@@ -408,7 +408,7 @@ ul {
   margin: 10px 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 988px) {
   .about-foto {
     display: flex;
     flex-direction: column;
@@ -474,6 +474,14 @@ ul {
   border-bottom: 1px solid black;
   cursor: pointer;
   z-index: 5;
+}
+.pro-head .spano:hover a {
+  border-color: var(--main-color) !important;
+  color: black !important;
+  border-bottom: 5px solid;
+  transition-duration: 0.3s;
+  font-weight: bold;
+  padding-bottom: -2px;
 }
 
 .imag-pro {
@@ -564,9 +572,6 @@ ul {
   .pro-head h2 {
     font-size: 30px !important;
   }
-}
-
-@media (max-width: 600px) {
 }
 
 /* enn pro-section */
@@ -1135,6 +1140,12 @@ header .container ul li a {
   color: rgba(0, 0, 0, 1);
 }
 
+.btn-explore:hover {
+  background-color: black;
+  color: var(--main-color);
+  transition-duration: 0.3s;
+}
+
 .btn-contact {
   width: 175px;
   height: 45.48px;
@@ -1147,6 +1158,11 @@ header .container ul li a {
   font-weight: 500;
   line-height: 22.48px;
   text-align: center;
+}
+.btn-contact:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
 }
 
 .main-dikor {
@@ -1212,6 +1228,12 @@ header .container ul li a {
   font-weight: 400;
   line-height: 22.48px;
   text-align: center;
+}
+.main-dikor .box-one a:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.3s;
+  border-color: black;
 }
 
 .main-dikor .box-two {
@@ -1878,7 +1900,6 @@ header .container ul li a {
 
 .text-brochure {
   text-align: center;
-  
 }
 
 .text-brochure h6 {
@@ -1960,15 +1981,14 @@ header .container ul li a {
   height: 410px;
   padding: 119px 101px 119px 101px;
   width: 100%;
-  background-image: url('../img/BackgrundEdited 1 (1\).webp');
+  background-image: url("../img/BackgrundEdited 1 (1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-@media (max-width:767px) {
-  .footer-div{
+@media (max-width: 767px) {
+  .footer-div {
     padding: 55px 94px 118px 27px;
-    ;
   }
 }
 /* end footer */
