@@ -1331,7 +1331,7 @@ header .container ul li a {
 
 .navMenu {
   display: none;
-  height: 778px;
+  height: 800px;
   width: 50%;
   place-content: center;
   background: rgb(11 11 11 / 69%);
@@ -2522,7 +2522,7 @@ header .container ul li a {
 
 .mask-main-product {
   position: relative;
-  padding: 225px;
+  padding: 225px 0px;
   top: -23px;
   background-image: url("../img/Products 1_11zon.webp");
   background-size: cover;
@@ -2536,11 +2536,6 @@ header .container ul li a {
   font-weight: 700;
   line-height: 73px;
   text-align: center;
-}
-@media (max-width: 768px) {
-  .mask-main-product {
-    padding: 252px;
-  }
 }
 
 .mask-every::after {
@@ -2577,6 +2572,15 @@ header .container ul li a {
   top: 572px;
 }
 
+@media (max-width: 768px) {
+  .mask-main-product {
+    background-position: -760px;
+    padding: 150px 0px;
+  }
+  .main-brochure{
+    height: 1000px;
+  }
+}
 .text-brochure {
   text-align: center;
   top: 145px;
