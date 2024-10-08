@@ -1963,6 +1963,11 @@ header .container ul li a {
   background-repeat: no-repeat;
 }
 
-
+@media (max-width:767px) {
+  .footer-div{
+    padding: 55px 94px 118px 27px;
+    ;
+  }
+}
 /* end footer */
 /* /* //ibo * */
