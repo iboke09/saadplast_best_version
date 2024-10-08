@@ -199,6 +199,14 @@ ul {
   top: -52px;
 }
 
+@media (max-width: 991px) {
+  .imageor {
+    margin-left: 10px;
+  }
+  .imageorr {
+    margin-right: 10px;
+  }
+}
 /* Small */
 @media (max-width: 768px) {
   .main-dikor {
@@ -468,6 +476,16 @@ ul {
   z-index: 4;
 }
 
+@media (max-width: 767px) {
+  .pro-head .spano {
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    margin-bottom: 39px;
+    margin-right: 26px;
+  }
+}
 .pro-head .spano a {
   color: var(--main-color);
   position: relative;
@@ -582,7 +600,7 @@ ul {
 }
 
 .comny {
-  padding: 70px 0 10px 0;
+  margin-top: 160px;
 }
 
 .comny h2 {
@@ -768,7 +786,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("../img/BakgroundEdit\ 1\ \(1\).webp  ");
+  background-image: url("../img/BakgroundEdit\ 1\ \(1\)\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 781px;
@@ -776,6 +794,11 @@ ul {
   user-select: none;
 }
 
+@media (max-width: 767px) {
+  .saadplast-main {
+    background-position: -690px;
+  }
+}
 /* start-header */
 
 .saadplast-main .container.h {
@@ -898,13 +921,11 @@ header .container ul li a.active {
     position: relative;
     border-bottom: transparent !important;
   }
-  .brochuree::after{
+  .brochuree::after {
     left: 10px;
     top: -25px;
   }
 }
-
-
 
 .brochuree {
   position: absolute;
@@ -1238,7 +1259,7 @@ header .container ul li a {
     padding: 0px 13px !important;
     font-size: 12px !important;
   }
-  .brochuree{
+  .brochuree {
     position: initial;
   }
 }
@@ -1362,6 +1383,9 @@ header .container ul li a {
 @media (max-width: 550px) {
   .navMenu {
     width: 70%;
+  }
+  .saadplast-main .container.ea {
+    height: 95px;
   }
 }
 
@@ -2473,7 +2497,7 @@ header .container ul li a {
   text-align: center;
 }
 @media (max-width: 768px) {
-  .mask-main-product{
+  .mask-main-product {
     padding: 252px;
   }
 }
