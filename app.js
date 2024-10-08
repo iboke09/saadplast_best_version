@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     interval: 5000,
     pauseOnHover: true,
     gap: '0px', // المسافة بين البطاقات
-    pagination: true,
+    pagination: false,
     arrows: false, // إخفاء أزرار التبديل
   }).mount();
 });
