@@ -821,7 +821,7 @@ header .container ul {
     padding: 23px 30px !important;
   }
   .opp .brochuree {
-    padding: 15px 30px !important;
+    padding: 15px 20px !important;
   }
   .multi {
     font-size: 17px !important;
@@ -883,13 +883,6 @@ header .container ul li a:hover,
 header .container ul li a.active {
   color: rgba(83, 187, 184, 1);
 }
-@media (min-width: 768px) {
-  .productt {
-    position: relative;
-    border-bottom: transparent !important;
-  }
-}
-
 .brochuree::after {
   content: "";
   border-style: solid;
@@ -899,6 +892,19 @@ header .container ul li a.active {
   left: 30px;
   top: -10px;
 }
+
+@media (min-width: 768px) {
+  .productt {
+    position: relative;
+    border-bottom: transparent !important;
+  }
+  .brochuree::after{
+    left: 10px;
+    top: -25px;
+  }
+}
+
+
 
 .brochuree {
   position: absolute;
@@ -1468,7 +1474,6 @@ header .container ul li a {
 .btn-explore:hover {
   background-color: black;
   color: var(--main-color);
-  transition-duration: 1s;
 }
 
 .btn-contact {
@@ -1483,11 +1488,11 @@ header .container ul li a {
   font-weight: 500;
   line-height: 22.48px;
   text-align: center;
+  transition-duration: 0.3s;
 }
 .btn-contact:hover {
   background-color: black;
   color: white;
-  transition-duration: 0.3s;
 }
 
 .main-dikor {
@@ -2110,7 +2115,7 @@ header .container ul li a {
 .contact {
   text-align: center;
   padding-bottom: 100px;
-  margin-top: 200px;
+  padding-top: 100px;
 }
 
 .special-heading.er + p {
@@ -2466,6 +2471,11 @@ header .container ul li a {
   font-weight: 700;
   line-height: 73px;
   text-align: center;
+}
+@media (max-width: 768px) {
+  .mask-main-product{
+    padding: 252px;
+  }
 }
 
 .mask-every::after {
