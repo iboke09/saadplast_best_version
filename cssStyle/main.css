@@ -199,6 +199,14 @@ ul {
   top: -52px;
 }
 
+@media (max-width: 991px) {
+  .imageor {
+    margin-left: 10px;
+  }
+  .imageorr {
+    margin-right: 10px;
+  }
+}
 /* Small */
 @media (max-width: 768px) {
   .main-dikor {
@@ -468,6 +476,16 @@ ul {
   z-index: 4;
 }
 
+@media (max-width: 767px) {
+  .pro-head .spano {
+    text-align: right;
+    display: block;
+    cursor: pointer;
+    z-index: 4;
+    margin-bottom: 39px;
+    margin-right: 26px;
+  }
+}
 .pro-head .spano a {
   color: var(--main-color);
   position: relative;
@@ -582,7 +600,7 @@ ul {
 }
 
 .comny {
-  padding: 70px 0 10px 0;
+  margin-top: 160px;
 }
 
 .comny h2 {
@@ -768,7 +786,7 @@ ul {
 /* -ibo */
 
 .saadplast-main {
-  background-image: url("../img/BakgroundEdit\ 1\ \(1\).webp  ");
+  background-image: url("../img/BakgroundEdit\ 1\ \(1\)\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 781px;
@@ -776,6 +794,11 @@ ul {
   user-select: none;
 }
 
+@media (max-width: 767px) {
+  .saadplast-main {
+    background-position: -690px;
+  }
+}
 /* start-header */
 
 .saadplast-main .container.h {
@@ -821,7 +844,7 @@ header .container ul {
     padding: 23px 30px !important;
   }
   .opp .brochuree {
-    padding: 15px 30px !important;
+    padding: 15px 20px !important;
   }
   .multi {
     font-size: 17px !important;
@@ -883,13 +906,6 @@ header .container ul li a:hover,
 header .container ul li a.active {
   color: rgba(83, 187, 184, 1);
 }
-@media (min-width: 768px) {
-  .productt {
-    position: relative;
-    border-bottom: transparent !important;
-  }
-}
-
 .brochuree::after {
   content: "";
   border-style: solid;
@@ -898,6 +914,17 @@ header .container ul li a.active {
   position: absolute;
   left: 30px;
   top: -10px;
+}
+
+@media (min-width: 768px) {
+  .productt {
+    position: relative;
+    border-bottom: transparent !important;
+  }
+  .brochuree::after {
+    left: 10px;
+    top: -25px;
+  }
 }
 
 .brochuree {
@@ -1232,7 +1259,7 @@ header .container ul li a {
     padding: 0px 13px !important;
     font-size: 12px !important;
   }
-  .brochuree{
+  .brochuree {
     position: initial;
   }
 }
@@ -1357,6 +1384,9 @@ header .container ul li a {
   .navMenu {
     width: 70%;
   }
+  .saadplast-main .container.ea {
+    height: 95px;
+  }
 }
 
 @media (max-width: 365px) {
@@ -1468,7 +1498,6 @@ header .container ul li a {
 .btn-explore:hover {
   background-color: black;
   color: var(--main-color);
-  transition-duration: 1s;
 }
 
 .btn-contact {
@@ -1483,11 +1512,11 @@ header .container ul li a {
   font-weight: 500;
   line-height: 22.48px;
   text-align: center;
+  transition-duration: 0.3s;
 }
 .btn-contact:hover {
   background-color: black;
   color: white;
-  transition-duration: 0.3s;
 }
 
 .main-dikor {
@@ -2000,6 +2029,15 @@ header .container ul li a {
   transform: scale(1.2) !important;
 }
 
+.splide__pagination {
+  margin-bottom: 40px !important;
+}
+
+@media (min-width: 767px) {
+  .splide__pagination {
+    display: none !important;
+  }
+}
 .splide__slide {
   transition: 0.3s;
 }
@@ -2066,6 +2104,29 @@ header .container ul li a {
   opacity: 1;
 }
 
+@media (max-width: 991px) {
+  .splide__slide {
+    flex: 0 0 50% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .splide__slide {
+    flex: 0 0 80% !important;
+  }
+  .section-title {
+    font-size: 55px;
+    margin-bottom: -120px;
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .splide__slide {
+    flex: 0 0 90% !important;
+  }
+}
+
 .splide__slide:not(.is-active) {
   transform: none;
 }
@@ -2110,7 +2171,7 @@ header .container ul li a {
 .contact {
   text-align: center;
   padding-bottom: 100px;
-  margin-top: 200px;
+  padding-top: 100px;
 }
 
 .special-heading.er + p {
@@ -2467,6 +2528,11 @@ header .container ul li a {
   line-height: 73px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .mask-main-product {
+    padding: 252px;
+  }
+}
 
 .mask-every::after {
   content: "";
@@ -2536,7 +2602,6 @@ header .container ul li a {
   justify-content: space-around;
   align-items: center;
 }
-
 .main-brochure .mask-brochure .download-btn {
   display: flex;
   justify-content: space-between;
@@ -2552,7 +2617,13 @@ header .container ul li a {
   position: relative;
   top: 191px;
 }
-
+.main-brochure .mask-brochure .download-btn .talimate {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+}
 .main-brochure .mask-brochure .download-btn .download-brochure {
   width: 190.5px;
   height: 45.48px;
@@ -2566,14 +2637,73 @@ header .container ul li a {
   line-height: 22.48px;
   color: rgba(255, 255, 255, 1);
 }
-
-.main-brochure .mask-brochure .download-btn .talimate {
-  font-family: Raleway;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 26px;
-  text-align: left;
+@media (max-width: 1235px) {
+  .main-brochure .mask-brochure {
+    align-items: center;
+    flex-direction: column-reverse;
+    top: -60px;
+    position: relative;
+  }
+  .brochure-image {
+    top: 162px;
+    position: relative;
+    rotate: -10deg;
+    margin-bottom: -62px;
+  }
 }
+
+@media (max-width: 767px) {
+  .brochure-image img {
+    width: 550px;
+    left: 5px;
+    position: relative;
+  }
+  .main-brochure::before {
+    display: none;
+  }
+  .main-brochure {
+    top: -160px;
+  }
+  .main-brochure .mask-brochure .download-btn {
+    box-shadow: 0px 0px 16px #0000001a;
+  }
+}
+@media (max-width: 530px) {
+  .main-brochure .mask-brochure .download-btn {
+    width: auto;
+  }
+  .main-brochure .mask-brochure .download-btn .talimate {
+    font-size: 20px;
+  }
+  .main-brochure .mask-brochure .download-btn .download-brochure {
+    width: 165.5px;
+    height: 43.48px;
+  }
+  .brochure-image img {
+    width: 430px;
+    left: -1px;
+    position: relative;
+  }
+  .main-brochure {
+    background-position: 0px 125px;
+  }
+}
+
+@media (max-width: 380px) {
+  .main-brochure .mask-brochure .download-btn .talimate {
+    font-size: 19px;
+  }
+  .main-brochure .mask-brochure .download-btn .download-brochure {
+    width: 141.5px;
+    height: 43.48px;
+  }
+  .brochure-image img {
+    width: 300px;
+    left: -1px;
+    position: relative;
+  }
+}
+
 /* end main brochure */
 
 /* start footer */
