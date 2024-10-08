@@ -1279,6 +1279,7 @@ header .container ul li a {
   line-height: 65px;
   text-align: center;
   color: rgba(0, 0, 0, 1);
+  margin-bottom: -85px;
 }
 
 /* .testimonial-card::after{
@@ -1401,10 +1402,11 @@ header .container ul li a {
 .mask-every {
   height: 70vh;
   place-content: center;
+  margin-bottom: 100px;
 }
 
 .splide__track--draggable {
-  height: 50vh;
+  height: 65vh;
 }
 
 .card-title{
