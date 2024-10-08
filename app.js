@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
     type: 'loop',
     perPage: 2,
     perMove: 1,
-    focus: 'center',
-    // autoplay: true,
-    interval: 5000,
+    focus: 'left',
+    autoplay: true,
+    interval: 7000,
     pauseOnHover: true,
     gap: '0px', // المسافة بين البطاقات
     pagination: false,

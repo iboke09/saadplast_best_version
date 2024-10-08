@@ -1522,7 +1522,7 @@ header .container ul li a {
 }
 
 .splide__slide:not(.is-active) {
-  opacity: 0.6; /* جعل البطاقات غير النشطة شبه شفافة */
+  opacity: 0.7; /* جعل البطاقات غير النشطة شبه شفافة */
 }
 
 .splide__pagination__page {
@@ -1575,7 +1575,7 @@ header .container ul li a {
 }
 
 .splide__slide {
-  flex: 0 0 33.3%;
+  flex: 0 0 40%;
   transition: none;
   opacity: 1;
 }
@@ -1806,7 +1806,7 @@ header .container ul li a {
 
 .mask-main-product {
   position: relative;
-  height: 72vh;
+  padding: 225px;
   top: -23px;
   background-image: url("../img/Products 1_11zon.webp");
   background-size: cover;
@@ -1824,7 +1824,13 @@ header .container ul li a {
 
 .mask-every::after {
   content: "";
-  background-image: url("../img/Frame\ \(2\).webp");
+  position: absolute;
+  background-image: url("../img/Frame (2).webp");
+  top: 92px;
+  left: 8px;
+  width: 230px;
+  height: 218px;
+  z-index: -1;
 }
 
 @media (max-width: 1200px) {
@@ -1877,7 +1883,6 @@ header .container ul li a {
 /* start main brochure */
 
 .main-brochure {
-  margin: 110px 0px 0px 0px;
   background-image: url(../img/Union_11zon.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -1900,8 +1905,13 @@ header .container ul li a {
 
 .text-brochure {
   text-align: center;
+  top: 145px;
+  position: relative;
 }
-
+.brochure-image {
+  top:185px;
+  position: relative;
+}
 .text-brochure h6 {
   font-family: Raleway;
   font-size: 54px;
@@ -1926,7 +1936,6 @@ header .container ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
 }
 
 .main-brochure .mask-brochure .download-btn {
@@ -1942,7 +1951,7 @@ header .container ul li a {
   box-shadow: 0px 16px 38.5px 0px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 26px 34.8px 0px rgba(0, 0, 0, 0.05);
   position: relative;
-  top: 55px;
+  top: 191px;
 }
 
 .main-brochure .mask-brochure .download-btn .download-brochure {
@@ -1950,13 +1959,7 @@ header .container ul li a {
   height: 45.48px;
   padding: 11.24px 20px 11.24px 20px;
   border-radius: 7.49px;
-  background: linear-gradient(
-      0deg,
-      var(--Logo-Color, #53bbb8),
-      var(--Logo-Color, #53bbb8)
-    ),
-    linear-gradient(217.48deg, #3e3e3e 0%, #000000 100%),
-    linear-gradient(230.23deg, #53bbb8 -67.53%, #000000 108.1%);
+  background: linear-gradient(199deg, #53bbb8 -67.53%, #000000 108.1%);
   text-align: center;
   font-family: Inter;
   font-size: 18px;
