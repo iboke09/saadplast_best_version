@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lato:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -65,21 +66,21 @@ ul {
 /* Small */
 @media (min-width: 768px) {
   .container {
-    width: 750px !important;
+    width: 750px ;
   }
 }
 
 /* Medium */
 @media (min-width: 992px) {
   .container {
-    width: 970px !important;
+    width: 970px ;
   }
 }
 
 /* Large */
 @media (min-width: 1200px) {
   .container {
-    width: 1280px !important;
+    width: 1181px ;
   }
 }
 
@@ -178,9 +179,6 @@ ul {
 }
 /* Small */
 @media (max-width: 768px) {
-  .container {
-    width: 750px;
-  }
   .what-main {
     flex-direction: column;
     align-items: center;
@@ -225,9 +223,6 @@ ul {
 
 /* Medium */
 @media (max-width: 992px) {
-  .container {
-    width: 970px;
-  }
   .what-div-imagee-head {
     display: none;
   }
@@ -235,14 +230,6 @@ ul {
     margin-right: 50px;
   }
 }
-
-/* Large */
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
 /* end what section */
 /* start about section */
 .about {
@@ -483,6 +470,7 @@ header {
   position: absolute;
   left: 0;
   width: 100%;
+  z-index: 100;
 }
 
 header .container .logo img {
@@ -832,7 +820,7 @@ header .container ul li a {
   }
   header .container ul li a:not(.arabic, .arabic1, .brochuree) {
     padding: 20px 15px !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
   .multi {
     font-size: 20px !important;
@@ -898,6 +886,42 @@ header .container ul li a {
 
 .armh i {
   color: var(--main-color);
+}
+
+
+
+@media(max-width:767px) {
+  header .container ul li a{
+    font-size: 12px !important;
+  }
+  
+  .multi{
+    font-size: 12px;
+  }
+  .selectmask {
+    padding: 0px 0px !important;
+}
+.brochuree{
+  width: 99px;
+    height: 35px;
+}
+}
+@media (max-width: 767px) {
+  header .container ul li a:not(.opp,.arabic,.arabic1,.brochuree) {
+      padding: 0px 13px !important;
+      font-size: 12px !important;
+  }
+}
+@media(min-width:767px){
+  .text p{
+    text-align: justify !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .opp .brochuree {
+      padding: 7px 17px !important;
+  }
 }
 /* end-header */
 
@@ -1077,6 +1101,11 @@ header .container ul li a {
   text-transform: capitalize;
 }
 
+@media (max-width:1025px) {
+  .main-dikor {
+    left: 70%;
+  }
+}
 /* end-banner  */
 
 /* start rectangle */
@@ -1196,7 +1225,7 @@ header .container ul li a {
 
 .testimonial-section {
   position: relative;
-  padding: 50px 0px 0px 100px;
+  /* padding: 50px 0px 0px 100px; */
   color: #fff;
 }
 
@@ -1213,6 +1242,7 @@ header .container ul li a {
 
 .testimonial-header {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .section-subtitle {
@@ -1220,23 +1250,53 @@ header .container ul li a {
   font-size: 1.2em;
 }
 
-.section-title {
-  font-size: 2.5em;
-  margin: 0;
-}
 
 .testimonial-card {
   width: 90%;
   height: 345.99px;
-  padding: 25px 32px 25px 32px;
+  padding: 53px 35px 25px 40px;
   gap: 10px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 4px 59.1px 0px rgba(16, 92, 90, 0.3);
   color: #333;
   text-align: left;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   position: relative;
+  right: -37px;
+}
+
+.testimonial-section .splide__track--draggable{
+  /* box-shadow:-90px -5px 36px -54px rgba(16, 92, 90, 0.3); */
+  /* margin-left: -33px; */
+}
+
+.section-title {
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* .testimonial-card::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 4px 75.1px 0px rgba(16, 92, 90, 0.3);
+  z-index: 10000;
+} */
+
+.testimonial-card.sha{
+  box-shadow: 0px 4px 54px 0px rgba(84, 54, 23, 0.3);
+}
+
+.testimonial-card.ols{
+  box-shadow: 0px 4px 54px 0px rgba(89, 34, 56, 0.3);
 }
 
 .card-subtitle {
@@ -1265,9 +1325,28 @@ header .container ul li a {
   line-height: 20px;
   text-align: left;
   color: rgba(62, 62, 62, 1);
-  width: 80%;
+  width: 60%;
 }
 
+.splide__pagination__page.is-active{
+  background: #000000 !important;
+    transform: scale(1.2) !important;
+}
+
+.splide__slide{
+  transition: 0.3s;
+}
+.splide__slide.is-active{
+  opacity: 1; /* جعله أكثر وضوحًا */
+}
+
+.splide__slide:not(.is-active) {
+  opacity: 0.6; /* جعل البطاقات غير النشطة شبه شفافة */
+}
+
+.splide__pagination__page{
+  opacity: 1 !important;
+}
 .card-client {
   font-family: Roboto;
   font-size: 16px;
@@ -1284,24 +1363,32 @@ header .container ul li a {
 
 .card-image img {
   max-width: 100%;
-  margin-top: -20px;
+  bottom: 20px;
   right: 30px;
   position: absolute;
-  margin-top: -95px;
+  margin-top: -58px;
 }
 
 .card-image.olsun img {
-  right: -16px;
+  right: -25px;
+  bottom: 13px;
 }
 
+.card-image.sh img{
+  bottom: 13px;
+}
 
+.card-image.sha1 img{
+  bottom: 14px;
+}
 .splide__list {
   display: flex;
   overflow: visible;
+  align-items: center;
 }
 
 .splide__slide {
-  flex: 0 0 38%;
+  flex: 0 0 33.3%;
   transition: none;
   opacity: 1;
 }
@@ -1311,10 +1398,7 @@ header .container ul li a {
 }
 
 .mask-every {
-  height: 100vh;
-  background-image: url("../img/Rectangle\ \(1\).png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 70vh;
   place-content: center;
 }
 
@@ -1322,6 +1406,29 @@ header .container ul li a {
   height: 50vh;
 }
 
+.card-title{
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32.87px;
+  text-align: left;
+  background: linear-gradient(89.22deg, #265554 -0.98%, #53bbb8 112%);
+  background-clip: text;
+  color: transparent;
+}
+
+.card-title.sha{
+  background: linear-gradient(89.22deg, #543617 -0.98%, #f27320 112%);
+  background-clip: text;
+  color: transparent;
+}
+
+
+.card-title.ols{
+  background: linear-gradient(88.31deg, #592238 -2.1%, #bf4978 70.75%);
+  background-clip: text;
+  color: transparent;
+}
 /* end slider */
 
 
@@ -1462,7 +1569,6 @@ header .container ul li a {
   font-family: "Roboto", sans-serif;
   border-radius: 5px;
   margin-top: 5px;
-  cursor: default;
   margin-bottom: 15px;
   width: 345px;
   height: 190px;
@@ -1499,4 +1605,23 @@ header .container ul li a {
   border-radius: 6px;
 }
 /* end contact */
+
+.mask-main-product{
+  position: relative;
+  height: 510px;
+  top: -23px;
+  background-image: url("../img/Products 1_11zon.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  place-content: center;
+  display: grid;
+  color: rgba(255, 255, 255, 1);
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 73px;
+  text-align: center;
+}
+
 /* //ibo *
