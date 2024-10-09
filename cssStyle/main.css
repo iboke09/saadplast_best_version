@@ -2969,7 +2969,14 @@ header .container ul li a {
 /* end footer */
 /* /* //ibo * */
 /* for pagees */
-.margoo{
-  margin-top: 1000px;
+.margoo {
+  margin-top: 400px;
 }
 /* for pageesend */
+
+/* page one  */
+.mask-main-product.ph {
+  background-image: url("../img/page-one-one.jpg");
+}
+
+/* page one   end*/
