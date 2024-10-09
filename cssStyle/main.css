@@ -603,11 +603,7 @@ ul {
 }
 
 .pempe-pro {
-  background: linear-gradient(
-    89.22deg,
-    #543617 -0.98%,
-    #f27320 112%
-  ) !important ;
+  background: linear-gradient(88.31deg, #592238 -2.1%, #bf4978 70.75%) !important;
   margin: 0px auto 32px;
   text-align: center;
   color: transparent !important;
@@ -2602,12 +2598,20 @@ header {
   }
   .mask-main-product.ph{
     background-image: url("../img/Products\ 1\ \(1\)small.png") !important;
+    background-position: 0px !important;
+  }
+  .mask-main-product.ph2{
+    background-image: url("../img/Products\ 1\ \(1\)dro.png") !important;
+    background-position: 0px !important;  
   }
   .mask-main-product.ph3{
     background-image: url("../img/Products\ 1\ \(1\)cre.png") !important;
+    background-position: 0px !important;  
   }
   .mask-main-product.ph4{
     background-image: url("../img/Products\ 1\ \(1\)sha.png") !important;
+    background-position: 0px !important;
+    padding: 329px 0px !important; 
   }
 }
 
@@ -2817,6 +2821,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0px 20px 0px 0px;
+  margin-top: 130px;
 }
 
 .footer-content-one,
@@ -3038,9 +3043,10 @@ header {
 
 .box-app-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 55px;
+  gap: 14px;
 }
 .mask-h5 {
   font-family: "raleway";
@@ -3112,13 +3118,16 @@ header {
   .mask-all-flex .box-app-flex {
     justify-content: space-evenly;
   }
+  .box-app-flex{
+    gap: 40px ;
+  }
 }
 @media (max-width: 767px) {
   .mask-all-flex {
     background-size: contain;
   }
-  .mask-all-flex .mask-h5 {
-    font-size: 28px;
+  .mask-h5 {
+    font-size: 38px;
   }
   .box-app-flex .box {
     margin-bottom: 20px;
