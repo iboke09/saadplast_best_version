@@ -83,6 +83,11 @@ ul {
     width: 1181px;
   }
 }
+@media (min-width: 1275px) {
+  .container.phar {
+    width: 1250px;
+  }
+}
 
 /* O */
 /* for what section */
@@ -1232,7 +1237,11 @@ header .container ul li a {
 }
 /* .armh i {
   color: white;
-} */
+  } */
+
+.deneme ul li a {
+  font-size: 15px !important;
+}
 @media (max-width: 767px) {
   .armh i {
     top: 0px !important;
@@ -1331,7 +1340,7 @@ header .container ul li a {
     padding: 17px 17px !important;
     border: none;
     height: 89px;
-    font-size: 16px;
+    font-size: 16px !important;
     width: 94%;
   }
 }
@@ -3006,14 +3015,19 @@ header .container ul li a {
 .fa-x:before {
   font-weight: 100;
 }
+
 /* /* //ibo * */
+
 /* for pagees */
 
+.margoo {
+  margin-top: 100px;
+}
 /* for pageesend */
 
 /* page one  */
 .mask-main-product.ph {
-  background-image: url("../img/page-one-one.jpg");
+  background-image: url("../img/Productsiyi.webp");
 }
 
 .prodict {
@@ -3054,6 +3068,47 @@ header .container ul li a {
 .text-two {
   text-align: center;
   font-family: "inter";
+}
+/* page two */
+
+.mask-main-product.ph2 {
+  background-image: url("../img/Productsiyi.webp");
+}
+.mask-main-product.ph2 p {
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 73px;
+  text-align: center;
+}
+
+.mask-all-flex {
+  height: auto;
+  background-image: url("../img/Union\ \(1\)_11zon.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mask-all-flex .box-app-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+.mask-all-flex .mask-h5 {
+  font-family: Raleway;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  background: linear-gradient(89.22deg, #265554 -0.98%, #53bbb8 112%);
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+}
+
+.text-two {
+  text-align: center;
+  font-family: Inter;
   font-size: 24px;
   font-weight: 400;
   line-height: 31.93px;
@@ -3062,18 +3117,29 @@ header .container ul li a {
 .text-two-p-c {
   color: #53bbb8;
 }
+
 @media (max-width: 991px) {
-  .box-app-flex {
+  .mask-all-flex .box-app-flex {
     justify-content: space-evenly;
   }
 }
 @media (max-width: 767px) {
+  .mask-all-flex .mask-h5{
+    font-size: 28px;
+  }
   .box-app-flex .box {
     margin-bottom: 20px;
-    justify-content: center;
+  }
+  .mask-main-product.ph2 {
+    background-position: -5px 20px;
+  }
+  .ilk-head {
+    font-size: 24px;
   }
 }
-
-.jojo {
+.box-app-flex.son {
   justify-content: space-evenly;
 }
+
+
+/* page two end  */
