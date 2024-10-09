@@ -18,6 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
   }).mount();
 });
 
+// function updateActiveState() {
+//   if (window.matchMedia("(max-width: 767px)").matches) {
+//     const activeElements = document.querySelectorAll('.splide__slide.is-active');
+//     activeElements.forEach(function (el) {
+//       el.classList.remove('is-active');
+//     });
+//   }
+// }
+
+// updateActiveState();
+// window.addEventListener("resize", updateActiveState);
+
 let burgerMenu = document.getElementById("burger-menu");
 let navMenu = document.getElementById("navMenu");
 let clicked = document.getElementById("clicked");
