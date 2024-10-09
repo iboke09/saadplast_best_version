@@ -3002,6 +3002,9 @@ header .container ul li a {
   display: none;
 }
 
+.fa-x:before {
+  font-weight: 100;
+}
 /* /* //ibo * */
 /* for pagees */
 .margoo {
