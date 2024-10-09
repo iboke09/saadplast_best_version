@@ -38,18 +38,18 @@ let olurmu = document.getElementById("olurmu");
 hoverEffect.addEventListener("click", () => {
   if (olurmu.style.display === "none") {
     olurmu.style.display = "block";
-} else {
+  } else {
     olurmu.style.display = "none";
-}
-
+  }
 });
 burgerMenu.addEventListener("click", () => {
   clicked.style.cssText = "display: block";
   burgerMenu.style.cssText = "display: none";
-  navMenu.style.cssText = "display: block";
+  olurmu.style.display = "none";  
+  navMenu.style.cssText = "left: 0%";
 });
 clicked.addEventListener("click", () => {
   clicked.style.cssText = "display: none";
   burgerMenu.style.cssText = "display: block";
-  navMenu.style.cssText = "display: none";
+  navMenu.style.cssText = "left:-75%";
 });

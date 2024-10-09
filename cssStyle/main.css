@@ -283,6 +283,7 @@ ul {
 
   .what-section {
     height: auto !important;
+    margin-top: 130px;
   }
   .meet-head {
     margin-top: 10px !important;
@@ -1368,7 +1369,7 @@ header {
 }
 @media (min-width: 767px) {
   .navMenu {
-    display: none !important;
+    display: none !important; 
   }
 }
 @media (max-width: 767px) {
@@ -1386,14 +1387,17 @@ header {
 }
 
 .navMenu {
-  display: none;
+  /* display: none; */
   height: 800px;
   width: 50%;
   place-content: center;
   background: rgb(11 11 11 / 69%);
   margin-top: -115px;
+  transition: 0.5s;
   backdrop-filter: blur(44px);
-  border-radius: 0px 10px 10px 10px;
+  border-radius: 0px 0px 10px 0px;
+  position: relative;
+  left: -75%;
 }
 
 .navMenu .logo {
