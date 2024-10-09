@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     interval: 7000,
     pauseOnHover: true,
     gap: "0px",
-    pagination: true,
+    pagination: false,
     arrows: false,
     breakpoints: {
       767: {
