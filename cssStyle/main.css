@@ -1395,7 +1395,6 @@ header .container ul li a {
   top: -155px;
 }
 
-
 @media (min-width: 550px) {
   .navMenu {
     height: 780px;
@@ -3013,3 +3012,10 @@ header .container ul li a {
   margin-top: 1000px;
 }
 /* for pageesend */
+
+/* page one  */
+.mask-main-product.ph {
+  background-image: url("../img/page-one-one.jpg");
+}
+
+/* page one   end*/
