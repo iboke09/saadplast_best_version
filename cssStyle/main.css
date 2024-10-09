@@ -3146,3 +3146,19 @@ header .container ul li a {
 
 
 /* page two end  */
+
+
+/* page three */
+
+.mask-main-product.ph3 {
+  background-image: url("../img/Products\ 1\ \(1\).png");
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  .mask-main-product.ph3{
+    background-image: cover;
+  }
+}
+
+/* end three */
