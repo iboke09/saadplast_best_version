@@ -324,7 +324,7 @@ ul {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 290px;
+  height: 300px;
 }
 
 .meet-head .cp {
@@ -497,11 +497,16 @@ ul {
   font-family: "raleway";
   text-align: right;
   display: block;
-  margin: 0px 97px 38px 0px;
+  margin: 0px 20% 38px 0px;
   cursor: pointer;
   z-index: 4;
 }
 
+@media (max-width: 1400px) {
+  .spano{
+    margin: 0px 10% 38px 0px !important;
+  }
+}
 @media (max-width: 767px) {
   .pro-head .spano {
     text-align: right;
@@ -524,6 +529,10 @@ ul {
   color: black !important;
 }
 
+
+.spanoA{
+
+}
 .imag-pro {
   width: 387.42px;
   height: 487.31px;
@@ -622,6 +631,7 @@ ul {
   }
   .pro-head h2 {
     font-size: 30px !important;
+    line-height: 40px;
   }
 }
 
@@ -1705,6 +1715,8 @@ header .container ul li a {
   background-size: cover;
   place-content: center;
   margin-top: -7px;
+  position: relative;
+  z-index: 1000f;
 }
 
 .rectangle .rectangle-box {
@@ -2579,7 +2591,7 @@ header .container ul li a {
   position: relative;
   padding: 225px 0px;
   top: -23px;
-  background-image: url("../img/Products 1_11zon.webp");
+  background-image: url("../img/Products\ 1\ \(1\).webp");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -2629,7 +2641,7 @@ header .container ul li a {
 
 @media (max-width: 768px) {
   .mask-main-product {
-    background-position: -1200px;
+    background-position: -1400px;
     padding: 291px 0px;
   }
   .main-brochure {
