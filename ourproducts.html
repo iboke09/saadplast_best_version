@@ -40,11 +40,7 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- tailwind -->
-    <!-- <link
-              href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
-              rel="stylesheet"
-            /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="icon" href="img/small-logo.png" />
   </head>
   <body>
@@ -193,15 +189,15 @@
       </header>
     </div>
     <div class="mask-main-product">
-      <h5>Our Products</h5>
+      <h5 data-aos="zoom-in">Our Products</h5>
     </div>
     <div class="mask-every">
       <div class="testimonial-section">
         <div class="background-overlay"></div>
         <div class="testimonial-header">
-          <h2 class="section-title">Products</h2>
+          <h2 class="section-title" data-aos="zoom-in">Products</h2>
         </div>
-        <div class="splide" id="testimonial-slider">
+        <div class="splide" id="testimonial-slider" data-aos="fade-down-right" data-aos-delay="300">
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
@@ -267,18 +263,18 @@
     </div>
     <div class="main-brochure">
       <div class="text-brochure">
-        <h6>Download</h6>
-        <p class="brochure-p">Brochure</p>
+        <h6 data-aos="fade-left" data-aos-delay="300">Download</h6>
+        <p class="brochure-p" data-aos="fade-right" data-aos-delay="300">Brochure</p>
       </div>
       <div class="mask-brochure">
-        <div class="download-btn">
+        <div class="download-btn"  data-aos="fade-right" data-aos-easing="linear">
           <p class="talimate">Download Now</p>
           <a href="brocureSaadplast.pdf" download="" class="download-brochure"
             >Download</a
           >
         </div>
-        <div class="brochure-image">
-          <img src="./img/SaadPlastBrochoreMockupPng 1.webp" alt="" />
+        <div class="brochure-image" >
+          <img src="./img/SaadPlastBrochoreMockupPng 1.webp" alt="" data-aos="flip-down" data-aos-easing="linear" data-aos-delay="500"/>
         </div>
       </div>
     </div>
@@ -319,5 +315,9 @@
     <!-- end footer -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
   </body>
 </html>
