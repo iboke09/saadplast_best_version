@@ -534,8 +534,6 @@ ul {
   color: black !important;
 }
 
-.spanoA {
-}
 .imag-pro {
   width: 387.42px;
   height: 487.31px;
@@ -1702,8 +1700,6 @@ header .container ul li a {
   .buttons {
     justify-content: center;
   }
-  .banner p {
-  }
 }
 
 @media (max-width: 535px) {
@@ -2016,43 +2012,7 @@ header .container ul li a {
   margin-bottom: -85px;
   position: relative;
 }
-/* 
-.section-title::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 2px solid #333;
-  bottom: -38px;
-  background-color: white;
-}
 
-.section-title::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 2px;
-  background-color: #333;
-  bottom: -30px;
-  width: 120px;
-} */
-
-.testimonial-card::after {
-  /* content: "";
-  position: relative;
-  display: block;
-  top: -23px;
-  left: 210px;
-  width: 88%;
-  height: 79%;
-  z-index: 10000;
-  background: #57bcb7;
-  border-radius: 312px; */
-}
 .testimonial-card.ols::after {
   background: rgba(228, 91, 146, 1);
 }
@@ -2669,8 +2629,18 @@ header .container ul li a {
 
 @media (max-width: 768px) {
   .mask-main-product {
-    background-position: -1400px;
+    padding: 322px 0px;
+    background-position: -1534px;
+  }
+  .mask-main-product.ph3{
+    padding: 403px 0px;
+  }
+  .mask-main-product.ph{
     padding: 291px 0px;
+  }
+  .mask-main-product.prod{
+    padding: 290px 0px;
+    background-position: -1465px;
   }
   .main-brochure {
     height: 1000px;
@@ -3126,10 +3096,10 @@ header .container ul li a {
   }
 }
 @media (max-width: 767px) {
-  .mask-all-flex{
+  .mask-all-flex {
     background-size: contain;
   }
-  .mask-all-flex .mask-h5{
+  .mask-all-flex .mask-h5 {
     font-size: 28px;
   }
   .box-app-flex .box {
@@ -3140,6 +3110,7 @@ header .container ul li a {
   }
   .ilk-head {
     font-size: 24px;
+    line-height: 40px;
   }
 }
 .box-app-flex.son {
@@ -3156,7 +3127,6 @@ header .container ul li a {
     #592238 -2.1%,
     #bf4978 70.75%
   ) !important;
-  margin: 0px auto 32px;
   text-align: center;
   color: transparent !important;
   background-clip: text !important;
@@ -3186,6 +3156,12 @@ header .container ul li a {
   position: relative;
 }
 
+
+@media (max-width: 767px) {
+  .pempe-proo-w.wa{
+    font-size: 38px;
+  }
+}
 /* .pempe-proo.maino::before {
   content: "";
   width: 100%;
@@ -3209,7 +3185,9 @@ header .container ul li a {
 @media (max-width: 767px) {
   .mask-main-product.ph3{
     background-position: -210px;
-    height: 380px;
+    height: 380px;}
+  .mask-main-product.ph3 {
+    background-image: cover;
   }
 }
 
