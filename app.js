@@ -21,6 +21,16 @@ document.addEventListener("DOMContentLoaded", function () {
 let burgerMenu = document.getElementById("burger-menu");
 let navMenu = document.getElementById("navMenu");
 let clicked = document.getElementById("clicked");
+let hoverEffect = document.getElementById("hover-effect");
+let olurmu = document.getElementById("olurmu");
+hoverEffect.addEventListener("click", () => {
+  if (olurmu.style.display === "none") {
+    olurmu.style.display = "block";
+} else {
+    olurmu.style.display = "none";
+}
+
+});
 burgerMenu.addEventListener("click", () => {
   clicked.style.cssText = "display: block";
   burgerMenu.style.cssText = "display: none";
