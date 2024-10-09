@@ -3144,9 +3144,26 @@ header .container ul li a {
   justify-content: space-evenly;
 }
 
-
+.ph4 {
+  background-image: url(../img/shampuan.png);
+}
 /* page two end  */
-
+.pempe-proo {
+  background: linear-gradient(
+    88.31deg,
+    #592238 -2.1%,
+    #bf4978 70.75%
+  ) !important;
+  margin: 0px auto 32px;
+  text-align: center;
+  color: transparent !important;
+  background-clip: text !important;
+  font-family: "raleway";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.35px;
+  text-align: center;
+}
 
 /* page three */
 
