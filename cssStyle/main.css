@@ -2211,10 +2211,19 @@ header .container ul li a {
   margin: -41px 0 50px;
   color: #797979;
 }
-
+  
 @media (max-width: 500px) {
   .special-heading {
-    font-size: 70px;
+    font-size: 47px;
+    margin: 50px 0px 50px 0px;
+    letter-spacing: 3px;
+    width: 105%;
+  }
+  .special-heading.er + p {
+    font-size: 30px;
+    margin: -88px 48px 51px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
   }
   .seo {
     font-size: 40px !important;
@@ -2713,7 +2722,7 @@ header .container ul li a {
   .main-brochure {
     background-position: 0px 125px;
   }
-  .main-brochure .mask-brochure{
+  .main-brochure .mask-brochure {
     margin-top: 60px;
   }
 }
