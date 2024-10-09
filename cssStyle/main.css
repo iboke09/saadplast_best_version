@@ -503,7 +503,7 @@ ul {
 }
 
 @media (max-width: 1400px) {
-  .spano{
+  .spano {
     margin: 0px 10% 38px 0px !important;
   }
 }
@@ -529,9 +529,7 @@ ul {
   color: black !important;
 }
 
-
-.spanoA{
-
+.spanoA {
 }
 .imag-pro {
   width: 387.42px;
@@ -1284,6 +1282,9 @@ header .container ul li a {
   color: var(--main-color);
 }
 
+#olurmu {
+  z-index: 10000;
+}
 @media (max-width: 767px) {
   header .container ul li a {
     font-size: 12px !important;
@@ -1299,6 +1300,16 @@ header .container ul li a {
     width: 99px;
     height: 35px;
   } */
+  .hover-affect:hover + ul {
+    display: block !important;
+  }
+  #olurmu {
+    display: none;
+    top: 224px;
+    position: absolute;
+    width: 90%;
+    left: 20px;
+  }
 }
 @media (max-width: 767px) {
   header .container ul li a:not(.opp, .arabic, .arabic1, .brochuree) {
@@ -1319,6 +1330,18 @@ header .container ul li a {
   .opp .brochuree {
     padding: 17px 17px !important;
     border: none;
+    height: 89px;
+    font-size: 16px;
+    width: 94%;
+  }
+}
+@media (max-width: 365px) {
+  .brochuree::after {
+    left: 21px;
+    top: -25px;
+  }
+  #olurmu {
+    top: 216px;
   }
 }
 
@@ -1329,17 +1352,6 @@ header .container ul li a {
   position: absolute;
   right: 34px;
   z-index: 100000;
-}
-
-.hover-affect:hover + ul {
-  display: block !important;
-}
-#olurmu {
-  display: none;
-  top: 224px;
-  position: absolute;
-  width: 90%;
-  left: 20px;
 }
 
 /* start small header */
@@ -1383,6 +1395,12 @@ header .container ul li a {
   top: -155px;
 }
 
+
+@media (min-width: 550px) {
+  .navMenu {
+    height: 780px;
+  }
+}
 .navMenu ul li:not(.opp) {
   margin: 20px;
 }
@@ -2979,9 +2997,14 @@ header .container ul li a {
   }
 }
 /* end footer */
+
+.armhs .armh {
+  display: none;
+}
+
 /* /* //ibo * */
 /* for pagees */
-.margoo{
+.margoo {
   margin-top: 1000px;
 }
 /* for pageesend */

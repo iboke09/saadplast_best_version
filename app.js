@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 let burgerMenu = document.getElementById("burger-menu");
 let navMenu = document.getElementById("navMenu");
 let clicked = document.getElementById("clicked");
+let hoverEffect = document.getElementsByClassName("hover-effect");
 burgerMenu.addEventListener("click", () => {
   clicked.style.cssText = "display: block";
   burgerMenu.style.cssText = "display: none";
