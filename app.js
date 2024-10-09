@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     perMove: 1,
     focus: "left",
     autoplay: true,
-    interval: 7000,
+    interval: 5000,
     pauseOnHover: true,
     gap: "0px",
     pagination: false,

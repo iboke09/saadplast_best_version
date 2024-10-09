@@ -2260,9 +2260,11 @@ header .container ul li a {
     margin-bottom: 100px;
   }
   .seo {
-    font-size: 40px !important;
-    top: -33px;
+    font-size: 30px !important;
+    top: -78px;
     right: -7px;
+    z-index: -123;
+    letter-spacing: 7px;
   }
 }
 
@@ -2593,6 +2595,16 @@ header .container ul li a {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .mask-main-product {
+    background-image: url("../img/Products\ 1\ \(2\).png");
+    background-position: -105px !important;
+  }
+  .mask-main-product.ph{
+    background-image: url("../img/Products\ 1\ \(1\)small.png") !important;
+  }
+}
+
 .mask-every::after {
   content: "";
   position: absolute;
@@ -2632,13 +2644,13 @@ header .container ul li a {
     padding: 322px 0px;
     background-position: -1534px;
   }
-  .mask-main-product.ph3{
+  .mask-main-product.ph3 {
     padding: 403px 0px;
   }
-  .mask-main-product.ph{
+  .mask-main-product.ph {
     padding: 291px 0px;
   }
-  .mask-main-product.prod{
+  .mask-main-product.prod {
     padding: 290px 0px;
     background-position: -1465px;
   }
@@ -2997,7 +3009,7 @@ header .container ul li a {
 
 /* page one  */
 .mask-main-product.ph {
-  background-image: url("../img/Productsiyi.webp");
+  background-image: url("../img/Products\ 1\ \(1\)newforomar.png");
 }
 
 .prodict {
@@ -3042,7 +3054,7 @@ header .container ul li a {
 /* page two */
 
 .mask-main-product.ph2 {
-  background-image: url("../img/Productsiyi.webp");
+  background-image: url("../img/Products\ 1\ \(1\)new.png");
 }
 .mask-main-product.ph2 p {
   font-family: Raleway;
@@ -3156,9 +3168,8 @@ header .container ul li a {
   position: relative;
 }
 
-
 @media (max-width: 767px) {
-  .pempe-proo-w.wa{
+  .pempe-proo-w.wa {
     font-size: 38px;
   }
 }
@@ -3174,7 +3185,6 @@ header .container ul li a {
   filter: blur(80px);
 } */
 
-
 /* page three */
 
 .mask-main-product.ph3 {
@@ -3183,21 +3193,22 @@ header .container ul li a {
 }
 
 @media (max-width: 767px) {
-  .mask-main-product.ph3{
+  .mask-main-product.ph3 {
     background-position: -210px;
-    height: 380px;}
+    height: 380px;
+  }
   .mask-main-product.ph3 {
     background-image: cover;
   }
 }
 
 @media (max-width: 430px) {
-  .mask-all-flex .box-app-flex .box img{
+  .mask-all-flex .box-app-flex .box img {
     max-width: 100%;
   }
 }
 
-.text-two-p-c.cr{
+.text-two-p-c.cr {
   color: #ab3972;
 }
 /* end three */
