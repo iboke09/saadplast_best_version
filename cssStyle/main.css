@@ -2644,6 +2644,12 @@ header {
   z-index: -1;
 }
 
+
+@media (max-width: 768px) {
+  .mask-every::after{
+    display: none;
+  }
+}
 /* start main brochure */
 
 .main-brochure {
