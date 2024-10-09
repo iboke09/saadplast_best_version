@@ -2848,7 +2848,9 @@ header {
   border-radius: 0px 20px 0px 0px;
   margin-top: 130px;
 }
-
+.footer-div.c {
+  margin-top: 0px;
+}
 .footer-content-one,
 .footer-content-two {
   color: white;
