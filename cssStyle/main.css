@@ -2062,7 +2062,7 @@ header .container ul li a {
   opacity: 1 !important;
 }
 .splide__pagination {
-  bottom: 1em !important;
+  bottom: -1.5em !important;
   right: -5px !important;
 }
 .card-client {
@@ -2121,18 +2121,30 @@ header .container ul li a {
 
 @media (max-width: 767px) {
   .splide__slide {
-    flex: 0 0 80% !important;
+    flex: 0 0 90% !important;
   }
   .section-title {
     font-size: 55px;
-    margin-bottom: -120px;
-    margin-top: -40px;
+    margin-top: 20px;
+    margin-bottom: -60px;
   }
+  .testimonial-card {
+    right: -21px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* .splide__slide {
+    flex: 0 0 90% !important;
+  } */
 }
 
 @media (max-width: 500px) {
   .splide__slide {
-    flex: 0 0 90% !important;
+    flex: 0 0 100% !important;
+  }
+  .testimonial-card {
+    right: -13px;
   }
 }
 
@@ -2574,10 +2586,10 @@ header .container ul li a {
 
 @media (max-width: 768px) {
   .mask-main-product {
-    background-position: -760px;
-    padding: 150px 0px;
+    background-position: -1200px;
+    padding: 291px 0px;
   }
-  .main-brochure{
+  .main-brochure {
     height: 1000px;
   }
 }
@@ -2684,6 +2696,7 @@ header .container ul li a {
 @media (max-width: 530px) {
   .main-brochure .mask-brochure .download-btn {
     width: auto;
+    margin-top: 20px;
   }
   .main-brochure .mask-brochure .download-btn .talimate {
     font-size: 20px;
@@ -2700,11 +2713,14 @@ header .container ul li a {
   .main-brochure {
     background-position: 0px 125px;
   }
+  .main-brochure .mask-brochure{
+    margin-top: 60px;
+  }
 }
 
 @media (max-width: 380px) {
   .main-brochure .mask-brochure .download-btn .talimate {
-    font-size: 19px;
+    font-size: 18px;
   }
   .main-brochure .mask-brochure .download-btn .download-brochure {
     width: 141.5px;
