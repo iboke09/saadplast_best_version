@@ -534,8 +534,6 @@ ul {
   color: black !important;
 }
 
-.spanoA {
-}
 .imag-pro {
   width: 387.42px;
   height: 487.31px;
@@ -1702,8 +1700,6 @@ header .container ul li a {
   .buttons {
     justify-content: center;
   }
-  .banner p {
-  }
 }
 
 @media (max-width: 535px) {
@@ -2016,43 +2012,7 @@ header .container ul li a {
   margin-bottom: -85px;
   position: relative;
 }
-/* 
-.section-title::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  border: 2px solid #333;
-  bottom: -38px;
-  background-color: white;
-}
 
-.section-title::before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 2px;
-  background-color: #333;
-  bottom: -30px;
-  width: 120px;
-} */
-
-.testimonial-card::after {
-  /* content: "";
-  position: relative;
-  display: block;
-  top: -23px;
-  left: 210px;
-  width: 88%;
-  height: 79%;
-  z-index: 10000;
-  background: #57bcb7;
-  border-radius: 312px; */
-}
 .testimonial-card.ols::after {
   background: rgba(228, 91, 146, 1);
 }
