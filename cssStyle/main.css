@@ -270,10 +270,10 @@ ul {
     width: 90% !important;
     margin-left: 5px !important;
     margin-right: 5px !important;
-    padding: 0px 3px 70px 3px !important;
+    padding: 5px 40px 70px 40px !important;
   }
   .what-ortaolan {
-    padding: 0px 3px 70px 3px !important;
+    padding: 5px 40px 70px 40px !important;
     display: block;
     margin-top: 0px !important;
     width: 90% !important;
@@ -867,6 +867,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
+  height: 130px;
 }
 
 header .container .logo img {
@@ -1364,12 +1365,29 @@ header {
 
 /* start small header */
 
+.siyah {
+  height: 100%;
+  width: 100%;
+  background: #0000008c;
+  top: 0;
+  position: absolute;
+  z-index: 100;
+  display: none;
+  position: fixed;
+}
 .burger-menu {
   display: none;
 }
+.burger-menu i {
+  width: 55px;
+  text-align: center;
+  height: 46px;
+  place-content: center;
+  display: grid;
+}
 @media (min-width: 767px) {
   .navMenu {
-    display: none !important; 
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
@@ -1382,7 +1400,7 @@ header {
     font-size: 31px;
   }
   header .container .logo {
-    flex-basis: 90%;
+    flex-basis: 80%;
   }
 }
 
@@ -2074,6 +2092,10 @@ header {
   width: 60%;
 }
 
+.splide--slide {
+  z-index: 1;
+}
+
 .splide__pagination__page.is-active {
   background: #000000 !important;
   transform: scale(1.2) !important;
@@ -2095,11 +2117,11 @@ header {
   opacity: 1;
 }
 
-@media (min-width: 767px) {
+/* @media (min-width: 767px) {
   .splide__slide:not(.is-active) {
     opacity: 0.7;
   }
-}
+} */
 
 .splide__pagination__page {
   opacity: 1 !important;
@@ -2149,6 +2171,9 @@ header {
   display: flex;
   overflow: visible;
   align-items: center;
+  height: 85%;
+  /* top: 100px;
+  position: relative; */
 }
 
 .splide__slide {
@@ -2215,6 +2240,9 @@ header {
 
 .splide__track--draggable {
   height: 65vh;
+  top: -95px;
+  z-index: 100 !important;
+  position: relative !important;
 }
 
 .card-title {
@@ -2601,18 +2629,18 @@ header {
   position: relative;
   padding: 225px 0px;
   top: -23px;
-  background-image: url("../img/Products\ 1\ \(1\).webp");
+  background-image: url("../img/Products\ 1\ \(1\)olcakmi.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   place-content: center;
-  display: grid;
   color: rgba(255, 255, 255, 1);
   font-family: Raleway;
   font-size: 54px;
   font-weight: 700;
   line-height: 73px;
   text-align: center;
+  height: 810px;
 }
 
 @media (max-width: 640px) {
@@ -2643,11 +2671,11 @@ header {
   content: "";
   position: absolute;
   background-image: url("../img/Frame (2).webp");
-  top: 92px;
-  left: 8px;
+  top: -20px;
+  left: 18px;
   width: 230px;
   height: 218px;
-  z-index: -1;
+  z-index: 0;
 }
 
 @media (max-width: 768px) {
@@ -2679,7 +2707,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .mask-main-product {
+  .mask-main-product:not(.prod) {
     padding: 322px 0px;
     background-position: -1534px;
   }
@@ -2688,10 +2716,6 @@ header {
   }
   .mask-main-product.ph {
     padding: 291px 0px;
-  }
-  .mask-main-product.prod {
-    padding: 290px 0px;
-    background-position: -1465px;
   }
   .main-brochure {
     height: 1000px;
@@ -2791,7 +2815,7 @@ header {
     display: none;
   }
   .main-brochure {
-    top: -160px;
+    top: -50px;
   }
   .main-brochure .mask-brochure .download-btn {
     box-shadow: 0px 0px 16px #0000001a;

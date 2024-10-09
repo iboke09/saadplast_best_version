@@ -34,6 +34,7 @@ let burgerMenu = document.getElementById("burger-menu");
 let navMenu = document.getElementById("navMenu");
 let clicked = document.getElementById("clicked");
 let hoverEffect = document.getElementById("hover-effect");
+let kapatma = document.getElementById("kapatma");
 let olurmu = document.getElementById("olurmu");
 hoverEffect.addEventListener("click", () => {
   if (olurmu.style.display === "none") {
@@ -42,13 +43,26 @@ hoverEffect.addEventListener("click", () => {
     olurmu.style.display = "none";
   }
 });
+
+kapatma.addEventListener("click", () => {
+  kapatma.style.cssText = "display: none";
+  clicked.style.cssText = "display: none";
+  burgerMenu.style.cssText = "display: block";
+  navMenu.style.cssText = "left:-75%";
+});
+
 burgerMenu.addEventListener("click", () => {
   clicked.style.cssText = "display: block";
   burgerMenu.style.cssText = "display: none";
   olurmu.style.display = "none";  
   navMenu.style.cssText = "left: 0%";
+  kapatma.style.cssText = "display: block";
 });
+
+
+
 clicked.addEventListener("click", () => {
+  kapatma.style.cssText = "display: none";
   clicked.style.cssText = "display: none";
   burgerMenu.style.cssText = "display: block";
   navMenu.style.cssText = "left:-75%";
