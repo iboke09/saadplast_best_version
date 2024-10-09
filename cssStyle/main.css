@@ -153,8 +153,7 @@ ul {
   border-radius: 10px;
   width: 380px;
   height: 275px;
-  background-color: black;
-  box-shadow: inset 0 0 50px rgba(255, 255, 255, 0.5);
+  background: linear-gradient(217.48deg, #3e3e3e 5%, #000000 100%);
 }
 
 .what-ortaolan p:nth-child(1) {
@@ -546,7 +545,7 @@ ul {
 .dood-dar {
   position: absolute;
   width: 100%;
-  height:50%;
+  height: 50%;
   top: 50%;
   background-color: #eee;
 }
@@ -1918,7 +1917,7 @@ header .container ul li a {
     height: 39%;
   }
   .rectangle {
-    height: 185vh;
+    height: 225vh;
     margin-top: -20px;
     padding: 60px 0px 60px 0px;
   }
@@ -2798,7 +2797,7 @@ header .container ul li a {
   color: white;
 }
 
-.footer-content-one p ,
+.footer-content-one p,
 .footer-content-two p {
   color: white;
   font-size: 16px;
