@@ -603,7 +603,11 @@ ul {
 }
 
 .pempe-pro {
-  background: linear-gradient(88.31deg, #592238 -2.1%, #bf4978 70.75%) !important;
+  background: linear-gradient(
+    88.31deg,
+    #592238 -2.1%,
+    #bf4978 70.75%
+  ) !important;
   margin: 0px auto 32px;
   text-align: center;
   color: transparent !important;
@@ -1932,7 +1936,6 @@ header {
   }
 }
 
-
 @media (max-width: 767px) {
   .rectangle {
     height: 220vh;
@@ -1940,7 +1943,6 @@ header {
     padding: 60px 0px 60px 0px;
   }
 }
-
 
 @media (max-width: 400px) {
   .rectangle .box-all {
@@ -1964,9 +1966,9 @@ header {
 
 @media (max-width: 400px) {
   .rectangle {
-      height: 250vh;
-      margin-top: -20px;
-      padding: 60px 0px 60px 0px;
+    height: 250vh;
+    margin-top: -20px;
+    padding: 60px 0px 60px 0px;
   }
 }
 /* end rectangle */
@@ -2614,22 +2616,22 @@ header {
     background-image: url("../img/Products\ 1\ \(2\).png");
     background-position: -105px !important;
   }
-  .mask-main-product.ph{
+  .mask-main-product.ph {
     background-image: url("../img/Products\ 1\ \(1\)small.png") !important;
     background-position: 0px !important;
   }
-  .mask-main-product.ph2{
+  .mask-main-product.ph2 {
     background-image: url("../img/Products\ 1\ \(1\)dro.png") !important;
-    background-position: 0px !important;  
+    background-position: 0px !important;
   }
-  .mask-main-product.ph3{
+  .mask-main-product.ph3 {
     background-image: url("../img/Products\ 1\ \(1\)cre.png") !important;
-    background-position: 0px !important;  
+    background-position: 0px !important;
   }
-  .mask-main-product.ph4{
+  .mask-main-product.ph4 {
     background-image: url("../img/Products\ 1\ \(1\)sha.png") !important;
     background-position: 0px !important;
-    padding: 329px 0px !important; 
+    padding: 329px 0px !important;
   }
 }
 
@@ -2644,9 +2646,8 @@ header {
   z-index: -1;
 }
 
-
 @media (max-width: 768px) {
-  .mask-every::after{
+  .mask-every::after {
     display: none;
   }
 }
@@ -2856,13 +2857,12 @@ header {
 .footer-content-one p,
 .footer-content-two p {
   color: white;
-  font-size: 16px;
+  font-size: 19px;
   font-style: "raleway";
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .for-footer-content {
   display: flex;
-  flex-direction: row;
   gap: 30px;
 }
 .footer-hep {
@@ -2975,7 +2975,7 @@ header {
     justify-content: center;
   }
   .footer-div {
-    background-image: url("../img/for-footer-img.webp");
+    background-image: url("../img/Rectangle\ 9646\ \(1\).webp");
     height: auto !important;
   }
   .for-footer-content {
@@ -3002,7 +3002,7 @@ header {
     margin: auto;
   }
   .all-footer {
-    margin: auto 10px !important;
+    /* margin: auto 10px !important; */
   }
   .footer-content-one {
     order: 2;
@@ -3142,8 +3142,8 @@ header {
   .mask-all-flex .box-app-flex {
     justify-content: space-evenly;
   }
-  .box-app-flex{
-    gap: 40px ;
+  .box-app-flex {
+    gap: 40px;
   }
 }
 @media (max-width: 767px) {
