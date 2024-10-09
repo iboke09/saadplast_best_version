@@ -3124,7 +3124,14 @@ header .container ul li a {
   }
 }
 @media (max-width: 767px) {
+<<<<<<< HEAD
   .mask-all-flex .mask-h5 {
+=======
+  .mask-all-flex{
+    background-size: contain;
+  }
+  .mask-all-flex .mask-h5{
+>>>>>>> eaea423494ffa50f2c46b6820fe0f515b146aa23
     font-size: 28px;
   }
   .box-app-flex .box {
