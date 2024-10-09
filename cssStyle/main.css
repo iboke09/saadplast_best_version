@@ -1938,7 +1938,7 @@ header {
 
 @media (max-width: 767px) {
   .rectangle {
-    height: 220vh;
+    height: 180vh;
     margin-top: -20px;
     padding: 60px 0px 60px 0px;
   }
