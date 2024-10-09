@@ -1932,7 +1932,17 @@ header {
   }
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 767px) {
+  .rectangle {
+    height: 220vh;
+    margin-top: -20px;
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+
+@media (max-width: 400px) {
   .rectangle .box-all {
     width: 280px;
   }
@@ -1949,6 +1959,14 @@ header {
     height: 225vh;
     margin-top: -20px;
     padding: 60px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rectangle {
+      height: 250vh;
+      margin-top: -20px;
+      padding: 60px 0px 60px 0px;
   }
 }
 /* end rectangle */
