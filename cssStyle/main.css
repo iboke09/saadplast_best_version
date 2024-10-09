@@ -1278,12 +1278,12 @@ header .container ul li a {
   }
 }
 
-@media (min-width: 992px) {
-  header {
-    position: fixed;
-    z-index: 1000;
-  }
+header {
+  position: fixed;
+  z-index: 1000;
 }
+/* @media (min-width: 992px) {
+} */
 
 .armh i {
   color: var(--main-color);
@@ -2602,6 +2602,12 @@ header .container ul li a {
   }
   .mask-main-product.ph{
     background-image: url("../img/Products\ 1\ \(1\)small.png") !important;
+  }
+  .mask-main-product.ph3{
+    background-image: url("../img/Products\ 1\ \(1\)cre.png") !important;
+  }
+  .mask-main-product.ph4{
+    background-image: url("../img/Products\ 1\ \(1\)sha.png") !important;
   }
 }
 
