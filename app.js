@@ -1,20 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
   new Splide("#testimonial-slider", {
-    type: "loop",
+    type: "slide",
     perPage: 2,
     perMove: 1,
     focus: "left",
     autoplay: true,
-    interval: 7000,
+    interval: 5000,
     pauseOnHover: true,
     gap: "0px",
     pagination: false,
     arrows: false,
-    breakpoints: {
-      767: {
-        type: "slide",
-      },
-    },
+    // breakpoints: {
+    //   767: {
+    //     type: "slide",
+    //   },
+    // },
   }).mount();
 });
 

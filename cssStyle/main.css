@@ -604,10 +604,10 @@ ul {
 
 .pempe-pro {
   background: linear-gradient(
-    89.22deg,
-    #543617 -0.98%,
-    #f27320 112%
-  ) !important ;
+    88.31deg,
+    #592238 -2.1%,
+    #bf4978 70.75%
+  ) !important;
   margin: 0px auto 32px;
   text-align: center;
   color: transparent !important;
@@ -1278,12 +1278,12 @@ header .container ul li a {
   }
 }
 
-@media (min-width: 992px) {
-  header {
-    position: fixed;
-    z-index: 1000;
-  }
+header {
+  position: fixed;
+  z-index: 1000;
 }
+/* @media (min-width: 992px) {
+} */
 
 .armh i {
   color: var(--main-color);
@@ -1936,7 +1936,15 @@ header .container ul li a {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 767px) {
+  .rectangle {
+    height: 180vh;
+    margin-top: -20px;
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 400px) {
   .rectangle .box-all {
     width: 280px;
   }
@@ -1951,6 +1959,14 @@ header .container ul li a {
   }
   .rectangle {
     height: 225vh;
+    margin-top: -20px;
+    padding: 60px 0px 60px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .rectangle {
+    height: 250vh;
     margin-top: -20px;
     padding: 60px 0px 60px 0px;
   }
@@ -2260,9 +2276,11 @@ header .container ul li a {
     margin-bottom: 100px;
   }
   .seo {
-    font-size: 40px !important;
-    top: -33px;
+    font-size: 30px !important;
+    top: -78px;
     right: -7px;
+    z-index: -123;
+    letter-spacing: 7px;
   }
 }
 
@@ -2593,6 +2611,30 @@ header .container ul li a {
   text-align: center;
 }
 
+@media (max-width: 640px) {
+  .mask-main-product {
+    background-image: url("../img/Products\ 1\ \(2\).png");
+    background-position: -105px !important;
+  }
+  .mask-main-product.ph {
+    background-image: url("../img/Products\ 1\ \(1\)small.png") !important;
+    background-position: 0px !important;
+  }
+  .mask-main-product.ph2 {
+    background-image: url("../img/Products\ 1\ \(1\)dro.png") !important;
+    background-position: 0px !important;
+  }
+  .mask-main-product.ph3 {
+    background-image: url("../img/Products\ 1\ \(1\)cre.png") !important;
+    background-position: 0px !important;
+  }
+  .mask-main-product.ph4 {
+    background-image: url("../img/Products\ 1\ \(1\)sha.png") !important;
+    background-position: 0px !important;
+    padding: 329px 0px !important;
+  }
+}
+
 .mask-every::after {
   content: "";
   position: absolute;
@@ -2604,6 +2646,11 @@ header .container ul li a {
   z-index: -1;
 }
 
+@media (max-width: 768px) {
+  .mask-every::after {
+    display: none;
+  }
+}
 /* start main brochure */
 
 .main-brochure {
@@ -2629,8 +2676,18 @@ header .container ul li a {
 
 @media (max-width: 768px) {
   .mask-main-product {
-    background-position: -1400px;
+    padding: 322px 0px;
+    background-position: -1534px;
+  }
+  .mask-main-product.ph3 {
+    padding: 403px 0px;
+  }
+  .mask-main-product.ph {
     padding: 291px 0px;
+  }
+  .mask-main-product.prod {
+    padding: 290px 0px;
+    background-position: -1465px;
   }
   .main-brochure {
     height: 1000px;
@@ -2789,8 +2846,11 @@ header .container ul li a {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0px 20px 0px 0px;
+  margin-top: 130px;
 }
-
+.footer-div.c {
+  margin-top: 0px;
+}
 .footer-content-one,
 .footer-content-two {
   color: white;
@@ -2800,12 +2860,10 @@ header .container ul li a {
 .footer-content-two p {
   color: white;
   font-size: 16px;
-  font-style: "raleway";
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .for-footer-content {
   display: flex;
-  flex-direction: row;
   gap: 30px;
 }
 .footer-hep {
@@ -2918,7 +2976,7 @@ header .container ul li a {
     justify-content: center;
   }
   .footer-div {
-    background-image: url("../img/for-footer-img.webp");
+    background-image: url("../img/Rectangle\ 9646\ \(1\).webp");
     height: auto !important;
   }
   .for-footer-content {
@@ -2945,7 +3003,7 @@ header .container ul li a {
     margin: auto;
   }
   .all-footer {
-    margin: auto 10px !important;
+    /* margin: auto 10px !important; */
   }
   .footer-content-one {
     order: 2;
@@ -2987,7 +3045,7 @@ header .container ul li a {
 
 /* page one  */
 .mask-main-product.ph {
-  background-image: url("../img/Productsiyi.webp");
+  background-image: url("../img/Products\ 1\ \(1\)newforomar.png");
 }
 
 .prodict {
@@ -3010,9 +3068,10 @@ header .container ul li a {
 
 .box-app-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 55px;
+  gap: 14px;
 }
 .mask-h5 {
   font-family: "raleway";
@@ -3032,7 +3091,7 @@ header .container ul li a {
 /* page two */
 
 .mask-main-product.ph2 {
-  background-image: url("../img/Productsiyi.webp");
+  background-image: url("../img/Products\ 1\ \(1\)new.png");
 }
 .mask-main-product.ph2 p {
   font-family: Raleway;
@@ -3047,13 +3106,15 @@ header .container ul li a {
   background-image: url("../img/Union\ \(1\)_11zon.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 100px;
 }
 
 .mask-all-flex .box-app-flex {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 55px;
+  gap: 30px;
 }
 .mask-all-flex .mask-h5 {
   font-family: Raleway;
@@ -3082,13 +3143,16 @@ header .container ul li a {
   .mask-all-flex .box-app-flex {
     justify-content: space-evenly;
   }
+  .box-app-flex {
+    gap: 40px;
+  }
 }
 @media (max-width: 767px) {
   .mask-all-flex {
     background-size: contain;
   }
-  .mask-all-flex .mask-h5 {
-    font-size: 28px;
+  .mask-h5 {
+    font-size: 38px;
   }
   .box-app-flex .box {
     margin-bottom: 20px;
@@ -3098,6 +3162,7 @@ header .container ul li a {
   }
   .ilk-head {
     font-size: 24px;
+    line-height: 40px;
   }
 }
 .box-app-flex.son {
@@ -3117,7 +3182,48 @@ header .container ul li a {
   text-align: center;
   color: transparent !important;
   background-clip: text !important;
+  font-family: "raleway";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.35px;
+  text-align: center;
+  position: relative;
 }
+
+.pempe-proo-w {
+  background: linear-gradient(
+    88.31deg,
+    #ffffff -2.1%,
+    #ffffff 70.75%
+  ) !important;
+  margin: 0px auto 32px;
+  text-align: center;
+  color: transparent !important;
+  background-clip: text !important;
+  font-family: "raleway";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56.35px;
+  text-align: center;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .pempe-proo-w.wa {
+    font-size: 38px;
+  }
+}
+/* .pempe-proo.maino::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  z-index: -1;
+  filter: blur(80px);
+} */
 
 /* page three */
 
@@ -3128,8 +3234,23 @@ header .container ul li a {
 
 @media (max-width: 767px) {
   .mask-main-product.ph3 {
+    background-position: -210px;
+    height: 380px;
+  }
+  .mask-main-product.ph3 {
     background-image: cover;
   }
 }
+
+@media (max-width: 430px) {
+  .mask-all-flex .box-app-flex .box img {
+    max-width: 100%;
+  }
+}
+
+.text-two-p-c.cr {
+  color: #ab3972;
+}
+/* end three */
 
 /* end three */
