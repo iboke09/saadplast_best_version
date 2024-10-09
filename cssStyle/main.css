@@ -2103,7 +2103,7 @@ header .container ul li a {
   transition: 0.3s;
 }
 .splide__slide.is-active {
-  opacity: 1; 
+  opacity: 1;
 }
 
 @media (min-width: 767px) {
@@ -3008,9 +3008,7 @@ header .container ul li a {
 }
 /* /* //ibo * */
 /* for pagees */
-.margoo {
-  margin-top: 1000px;
-}
+
 /* for pageesend */
 
 /* page one  */
@@ -3018,4 +3016,64 @@ header .container ul li a {
   background-image: url("../img/page-one-one.jpg");
 }
 
+.prodict {
+  margin-top: 260px;
+  background-image: url(../img/doppp.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: auto;
+  background-position-x: 300px;
+  background-position-y: 0px;
+  padding: 90px 0px;
+}
+
+.mask-all-flex {
+  height: auto;
+  background-image: url("../img/Union\ \(1\)_11zon.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-app-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 55px;
+}
+.mask-h5 {
+  font-family: "raleway";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 65px;
+  background: linear-gradient(89.22deg, #265554 -0.98%, #53bbb8 112%);
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+}
 /* page one   end*/
+.text-two {
+  text-align: center;
+  font-family: "inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.93px;
+  text-align: center;
+}
+.text-two-p-c {
+  color: #53bbb8;
+}
+@media (max-width: 991px) {
+  .box-app-flex {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 767px) {
+  .box-app-flex .box {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
+
+.jojo {
+  justify-content: space-evenly;
+}
