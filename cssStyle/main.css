@@ -2727,8 +2727,6 @@ header .container ul li a {
   background-repeat: no-repeat;
   border-radius: 0px 20px 0px 0px;
 }
-.footer-div img {
-}
 
 .footer-content-one,
 .footer-content-two {
@@ -2781,6 +2779,12 @@ header .container ul li a {
 .reserved {
   color: white;
   position: absolute;
+  top: 35%;
+  right: 0;
+}
+.reservedd {
+  color: white;
+  position: absolute;
   top: 50%;
   right: 0;
 }
@@ -2796,6 +2800,14 @@ header .container ul li a {
   font-weight: 600;
   line-height: 44.96px;
   text-align: left;
+}
+.copyyy {
+  font-family: "raleway";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.44px;
+  text-align: left;
+  color: white;
 }
 .saadplast-2 {
   font-family: "raleway";
@@ -2813,9 +2825,73 @@ header .container ul li a {
   padding: 0px;
 }
 
+.reservedddd {
+  display: hidden;
+}
+
+.hiddenn {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .footer-div {
-    padding: 55px 94px 118px 27px;
+    padding: 55px 27px;
+    border-left: 5px solid none;
+    border-radius: 10px;
+  }
+  .all-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-div {
+    background-image: url("../img/for-footer-img.webp");
+    height: auto !important;
+  }
+  .for-footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .saadplast-2 {
+    text-align: center;
+  }
+  .footer-hep {
+    text-align: center;
+  }
+  .icons {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+  .saadplast-imog {
+    width: 80%;
+    margin: auto;
+  }
+  .all-footer {
+    margin: auto 10px !important;
+  }
+  .footer-content-one {
+    order: 2;
+  }
+  .hiddenn {
+    display: inline-block;
+  }
+  .hiddennn {
+    display: none;
+  }
+  .footer-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .darfo {
+    margin: 20px 0px !important;
   }
 }
 /* end footer */
