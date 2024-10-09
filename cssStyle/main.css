@@ -545,8 +545,8 @@ ul {
 .dood-dar {
   position: absolute;
   width: 100%;
-  height: 50%;
-  top: 50%;
+  height: 50vh;
+  top: 42%;
   background-color: #eee;
 }
 @media (max-width: 1200px) {
@@ -2178,7 +2178,7 @@ header .container ul li a {
     width: 300px;
     right: -43px !important;
   }
-  .card-image.sha1 img{
+  .card-image.sha1 img {
     right: -24px !important;
   }
 }
