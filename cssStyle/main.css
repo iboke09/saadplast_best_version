@@ -1300,9 +1300,9 @@ header .container ul li a {
     width: 99px;
     height: 35px;
   } */
-  .hover-affect:hover + ul {
+  /* .hover-affect:hover + ul {
     display: block !important;
-  }
+  } */
   #olurmu {
     display: none;
     top: 224px;
