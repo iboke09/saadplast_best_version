@@ -263,18 +263,18 @@ ul {
     padding: 0px;
   }
   .what-div-image {
-    width: 80% !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    width: 90% !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
     padding: 0px 3px 70px 3px !important;
   }
   .what-ortaolan {
     padding: 0px 3px 70px 3px !important;
     display: block;
     margin-top: 0px !important;
-    width: 80% !important;
-    margin-left: 20px !important;
-    margin-right: 20px !important;
+    width: 90% !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
   }
 
   .what-section {
@@ -495,6 +495,7 @@ ul {
 }
 
 .pro-head .spano {
+  font-family: "raleway";
   text-align: right;
   display: block;
   margin: 0px 97px 38px 0px;
@@ -508,7 +509,7 @@ ul {
     display: block;
     cursor: pointer;
     z-index: 4;
-    margin-bottom: 39px;
+    margin-bottom: 10px;
     margin-right: 26px;
   }
 }
@@ -545,8 +546,8 @@ ul {
 .dood-dar {
   position: absolute;
   width: 100%;
-  height: 50vh;
-  top: 42%;
+  height:50%;
+  top: 50%;
   background-color: #eee;
 }
 @media (max-width: 1200px) {
@@ -2797,11 +2798,12 @@ header .container ul li a {
   color: white;
 }
 
-.footer-content-one,
+.footer-content-one p ,
 .footer-content-two p {
   color: white;
   font-size: 16px;
   font-style: "raleway";
+  opacity: 0.7;
 }
 .for-footer-content {
   display: flex;
@@ -2816,6 +2818,7 @@ header .container ul li a {
   text-align: left;
   margin-bottom: 0px;
   color: white;
+  opacity: 100% !important;
 }
 
 .footer-icon {
@@ -2857,6 +2860,7 @@ header .container ul li a {
   justify-content: flex-end;
   align-items: center;
   gap: 10px;
+  opacity: 0.7 !important;
 }
 .copyy {
   font-family: "raleway";
@@ -2864,6 +2868,7 @@ header .container ul li a {
   font-weight: 600;
   line-height: 44.96px;
   text-align: left;
+  opacity: 0.7 !important;
 }
 .copyyy {
   font-family: "raleway";
@@ -2872,6 +2877,7 @@ header .container ul li a {
   line-height: 16.44px;
   text-align: left;
   color: white;
+  opacity: 0.7 !important;
 }
 .saadplast-2 {
   font-family: "raleway";
@@ -2895,6 +2901,10 @@ header .container ul li a {
 
 .hiddenn {
   display: none;
+}
+
+.footer-icon i {
+  color: black;
 }
 
 @media (max-width: 767px) {
