@@ -2104,11 +2104,13 @@ header .container ul li a {
   transition: 0.3s;
 }
 .splide__slide.is-active {
-  opacity: 1; /* جعله أكثر وضوحًا */
+  opacity: 1; 
 }
 
-.splide__slide:not(.is-active) {
-  opacity: 0.7; /* جعل البطاقات غير النشطة شبه شفافة */
+@media (min-width: 767px) {
+  .splide__slide:not(.is-active) {
+    opacity: 0.7;
+  }
 }
 
 .splide__pagination__page {
