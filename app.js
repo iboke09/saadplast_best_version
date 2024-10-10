@@ -54,12 +54,10 @@ kapatma.addEventListener("click", () => {
 burgerMenu.addEventListener("click", () => {
   clicked.style.cssText = "display: block";
   burgerMenu.style.cssText = "display: none";
-  olurmu.style.display = "none";  
+  olurmu.style.display = "none";
   navMenu.style.cssText = "left: 0%";
   kapatma.style.cssText = "display: block";
 });
-
-
 
 clicked.addEventListener("click", () => {
   kapatma.style.cssText = "display: none";
@@ -67,3 +65,19 @@ clicked.addEventListener("click", () => {
   burgerMenu.style.cssText = "display: block";
   navMenu.style.cssText = "left:-75%";
 });
+
+if (window.innerWidth < 500) {
+  lightbox.option({
+    resizeDuration: 100,
+    wrapAround: true,
+    maxWidth: 400,  
+    maxHeight: 400 ,
+  });
+} else {
+  lightbox.option({
+    resizeDuration: 100,
+    wrapAround: true,
+    maxWidth: 800,  
+    maxHeight: 800
+  });
+}
